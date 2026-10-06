@@ -73,4 +73,12 @@ The annotations, rubric and statistics in this repository are released under [CC
 
 ## Evaluation prototypes
 
-The three harness prototypes described in the writeup (`localization-probe`, `edit-recovery`, `hygiene-check`) have been run only on deterministic stubs. Their code will be added to this repository in a later release.
+`eval-proto/` contains the three harness prototypes described in the writeup:
+
+| Prototype | Targets | What it measures |
+|---|---|---|
+| `localization-probe/` | LOC-* | Rank candidate files from the issue text (no editing); P@k, R@k, hit@k, MRR |
+| `edit-recovery/` | CASC / TOOL / RIGID | Truncate a trajectory before its first failed edit and score recovery |
+| `hygiene-check/` | HYG | Cleanliness score (0–100) and flags for a git diff |
+
+**Status:** each harness runs end to end but has only been exercised with deterministic stub agents; no real agent has been evaluated. The demos need the source trajectories, which are not redistributed here — see `eval-proto/README.md` for how to obtain them.
