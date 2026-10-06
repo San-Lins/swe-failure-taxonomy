@@ -1,0 +1,355 @@
+{
+ "n": 250,
+ "method": "mechanical v3 re-pass: 12 adjudicated finals + EVAL-BROKEN gate over all 250; 238 non-adjudicated items keep v2 primary labels; NOVER-INSUF demoted to secondary dimension VERIF-ABSENT",
+ "provenance_counts": {
+  "gate_eval_broken": 34,
+  "agreement_kept": 34,
+  "adjudicated_final": 12,
+  "v2_kept": 169,
+  "v2_kept+lit_mapped": 1
+ },
+ "primary_overall": {
+  "NARROW-INCOMPLETE": {
+   "n": 134,
+   "pct": 53.6,
+   "ci95": [
+    47.4,
+    59.7
+   ]
+  },
+  "EVAL-BROKEN": {
+   "n": 42,
+   "pct": 16.8,
+   "ci95": [
+    12.7,
+    21.9
+   ]
+  },
+  "NARROW-REGRESSIVE": {
+   "n": 31,
+   "pct": 12.4,
+   "ci95": [
+    8.9,
+    17.1
+   ]
+  },
+  "LOC-REPAIR": {
+   "n": 27,
+   "pct": 10.8,
+   "ci95": [
+    7.5,
+    15.3
+   ]
+  },
+  "LOC-EXPLORE": {
+   "n": 13,
+   "pct": 5.2,
+   "ci95": [
+    3.1,
+    8.7
+   ]
+  },
+  "LIT-TASK": {
+   "n": 2,
+   "pct": 0.8,
+   "ci95": [
+    0.2,
+    2.9
+   ]
+  },
+  "RIGID-OSCIL": {
+   "n": 1,
+   "pct": 0.4,
+   "ci95": [
+    0.1,
+    2.2
+   ]
+  }
+ },
+ "primary_evaluable_only": {
+  "NARROW-INCOMPLETE": {
+   "n": 134,
+   "pct": 64.4,
+   "ci95": [
+    57.7,
+    70.6
+   ]
+  },
+  "NARROW-REGRESSIVE": {
+   "n": 31,
+   "pct": 14.9,
+   "ci95": [
+    10.7,
+    20.4
+   ]
+  },
+  "LOC-REPAIR": {
+   "n": 27,
+   "pct": 13.0,
+   "ci95": [
+    9.1,
+    18.2
+   ]
+  },
+  "LOC-EXPLORE": {
+   "n": 13,
+   "pct": 6.2,
+   "ci95": [
+    3.7,
+    10.4
+   ]
+  },
+  "LIT-TASK": {
+   "n": 2,
+   "pct": 1.0,
+   "ci95": [
+    0.3,
+    3.4
+   ]
+  },
+  "RIGID-OSCIL": {
+   "n": 1,
+   "pct": 0.5,
+   "ci95": [
+    0.1,
+    2.7
+   ]
+  }
+ },
+ "primary_stratified": {
+  "has_source_patch": {
+   "n": 205,
+   "dist": {
+    "NARROW-INCOMPLETE": {
+     "n": 134,
+     "pct": 65.4,
+     "ci95": [
+      58.6,
+      71.5
+     ]
+    },
+    "EVAL-BROKEN": {
+     "n": 39,
+     "pct": 19.0,
+     "ci95": [
+      14.2,
+      24.9
+     ]
+    },
+    "NARROW-REGRESSIVE": {
+     "n": 31,
+     "pct": 15.1,
+     "ci95": [
+      10.9,
+      20.7
+     ]
+    },
+    "RIGID-OSCIL": {
+     "n": 1,
+     "pct": 0.5,
+     "ci95": [
+      0.1,
+      2.7
+     ]
+    }
+   }
+  },
+  "effective_no_patch": {
+   "n": 45,
+   "dist": {
+    "LOC-REPAIR": {
+     "n": 27,
+     "pct": 60.0,
+     "ci95": [
+      45.5,
+      73.0
+     ]
+    },
+    "LOC-EXPLORE": {
+     "n": 13,
+     "pct": 28.9,
+     "ci95": [
+      17.7,
+      43.4
+     ]
+    },
+    "EVAL-BROKEN": {
+     "n": 3,
+     "pct": 6.7,
+     "ci95": [
+      2.3,
+      17.9
+     ]
+    },
+    "LIT-TASK": {
+     "n": 2,
+     "pct": 4.4,
+     "ci95": [
+      1.2,
+      14.8
+     ]
+    }
+   }
+  }
+ },
+ "secondary_overall": {
+  "HYG": {
+   "n": 234,
+   "pct": 93.6,
+   "ci95": [
+    89.9,
+    96.0
+   ]
+  },
+  "VERIF-ABSENT": {
+   "n": 131,
+   "pct": 52.4,
+   "ci95": [
+    46.2,
+    58.5
+   ]
+  },
+  "TOOL": {
+   "n": 37,
+   "pct": 14.8,
+   "ci95": [
+    10.9,
+    19.7
+   ]
+  },
+  "CONFAB": {
+   "n": 3,
+   "pct": 1.2,
+   "ci95": [
+    0.4,
+    3.5
+   ]
+  }
+ },
+ "secondary_given_primary": {
+  "EVAL-BROKEN": {
+   "HYG": {
+    "n": 42,
+    "pct": 100.0
+   },
+   "TOOL": {
+    "n": 10,
+    "pct": 23.8
+   },
+   "CONFAB": {
+    "n": 1,
+    "pct": 2.4
+   }
+  },
+  "LIT-TASK": {
+   "VERIF-ABSENT": {
+    "n": 2,
+    "pct": 100.0
+   },
+   "HYG": {
+    "n": 1,
+    "pct": 50.0
+   }
+  },
+  "LOC-EXPLORE": {
+   "HYG": {
+    "n": 13,
+    "pct": 100.0
+   },
+   "VERIF-ABSENT": {
+    "n": 10,
+    "pct": 76.9
+   },
+   "TOOL": {
+    "n": 4,
+    "pct": 30.8
+   },
+   "CONFAB": {
+    "n": 2,
+    "pct": 15.4
+   }
+  },
+  "LOC-REPAIR": {
+   "HYG": {
+    "n": 27,
+    "pct": 100.0
+   },
+   "VERIF-ABSENT": {
+    "n": 21,
+    "pct": 77.8
+   },
+   "TOOL": {
+    "n": 4,
+    "pct": 14.8
+   }
+  },
+  "NARROW-INCOMPLETE": {
+   "HYG": {
+    "n": 123,
+    "pct": 91.8
+   },
+   "VERIF-ABSENT": {
+    "n": 81,
+    "pct": 60.4
+   },
+   "TOOL": {
+    "n": 17,
+    "pct": 12.7
+   }
+  },
+  "NARROW-REGRESSIVE": {
+   "HYG": {
+    "n": 27,
+    "pct": 87.1
+   },
+   "VERIF-ABSENT": {
+    "n": 16,
+    "pct": 51.6
+   },
+   "TOOL": {
+    "n": 2,
+    "pct": 6.5
+   }
+  },
+  "RIGID-OSCIL": {
+   "HYG": {
+    "n": 1,
+    "pct": 100.0
+   },
+   "VERIF-ABSENT": {
+    "n": 1,
+    "pct": 100.0
+   }
+  }
+ },
+ "verif_absent_among_evaluable": {
+  "n": 131,
+  "denom": 208,
+  "pct": 63.0,
+  "ci95": [
+   56.2,
+   69.2
+  ]
+ },
+ "separability_evaluable": {
+  "has_source_patch_evaluable_n": 166,
+  "near_miss_share": {
+   "n": 165,
+   "pct": 99.4
+  },
+  "effective_no_patch_evaluable_n": 42,
+  "loc_share": {
+   "n": 40,
+   "pct": 95.2
+  }
+ },
+ "limitations": [
+  "238/250 items keep v2 primary labels; v3's tightened NARROW-INCOMPLETE definition (identifiable target test, failed<=4, concentrated) was NOT retro-applied — some v2 INCOMPLETE labels may not survive the stricter bar.",
+  "Single annotator (A) + single arbiter; inter-annotator kappa=0.68 measured on rubric v2 only (n=50).",
+  "Single model (GPT-4o) + single scaffold (OpenHands), maxiter 30.",
+  "FAIL_TO_PASS / PASS_TO_PASS metadata absent: NARROW-REGRESSIVE vs NARROW-INCOMPLETE boundary rests on the failed-count heuristic; boundary cases uncertain.",
+  "32 items have failed counts but no passed counts (partial test signal); kept in taxonomy, flagged via test_signal in full_labels_v3.json.",
+  "VERIF-ABSENT is mechanical from the digest TESTS_RUN(real) line; selfmade-script-only verification still counts as absent.",
+  "idx 103 (dvc-4125) bare LIT mapped to LIT-TASK by rationale reading, not independent annotation."
+ ]
+}

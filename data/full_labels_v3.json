@@ -1,0 +1,5245 @@
+[
+ {
+  "idx": 802,
+  "instance_id": "python__mypy-15139",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "gate_eval_broken",
+  "has_source_patch": true,
+  "patch_files": [
+   "nodes.py",
+   "reproduce_error.py",
+   "reproduce_error.sh"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": true
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 1815,
+  "instance_id": "pydantic__pydantic-9134",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "agreement_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "_model_construction.py",
+   "main.py",
+   "reproduce_error.py",
+   "test_edge_cases.py"
+  ],
+  "test_signal": {
+   "passed": 208,
+   "failed": 2,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 1004,
+  "instance_id": "dask__dask-6801",
+  "primary_v3": "LOC-REPAIR",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "agreement_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "reproduce_issue.py"
+  ],
+  "test_signal": {
+   "passed": 169,
+   "failed": 11,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 4983,
+  "instance_id": "pandas-dev__pandas-48651",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "agreement_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "parsers.pyx",
+   "_exceptions.py",
+   "test_script.py"
+  ],
+  "test_signal": {
+   "passed": 264,
+   "failed": 2,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 3228,
+  "instance_id": "Project-MONAI__MONAI-3205",
+  "primary_v3": "LOC-EXPLORE",
+  "secondary_v3": [
+   "HYG",
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "agreement_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3325,
+  "instance_id": "modin-project__modin-7189",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "agreement_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "envvars.py",
+   "test_envvars.py"
+  ],
+  "test_signal": {
+   "passed": 20,
+   "failed": 2,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 3388,
+  "instance_id": "getmoto__moto-7270",
+  "primary_v3": "NARROW-REGRESSIVE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "agreement_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "models.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": 26,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 4930,
+  "instance_id": "pandas-dev__pandas-52115",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "agreement_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "apply.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 168,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 4053,
+  "instance_id": "getmoto__moto-5880",
+  "primary_v3": "NARROW-REGRESSIVE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "agreement_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "fargate_test_output.txt",
+   "fargate_test_script.py",
+   "models.py"
+  ],
+  "test_signal": {
+   "passed": 129,
+   "failed": 25,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 4609,
+  "instance_id": "iterative__dvc-9825",
+  "primary_v3": "NARROW-REGRESSIVE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "agreement_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "config.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 36,
+   "failed": 14,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 1565,
+  "instance_id": "getmoto__moto-5701",
+  "primary_v3": "NARROW-REGRESSIVE",
+  "secondary_v3": [
+   "VERIF-ABSENT"
+  ],
+  "provenance": "agreement_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "models.py",
+   "responses.py"
+  ],
+  "test_signal": {
+   "passed": 144,
+   "failed": 10,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 5165,
+  "instance_id": "pandas-dev__pandas-49680",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "agreement_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "frame.py",
+   "test_explode_fix.py"
+  ],
+  "test_signal": {
+   "passed": 17,
+   "failed": 4,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 5875,
+  "instance_id": "modin-project__modin-6951",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "gate_eval_broken",
+  "has_source_patch": false,
+  "patch_files": [
+   "reproduce_modin_issue.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": true
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 444,
+  "instance_id": "dask__dask-6801",
+  "primary_v3": "NARROW-REGRESSIVE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "agreement_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "arrow.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 9,
+   "failed": 171,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3318,
+  "instance_id": "modin-project__modin-7142",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "gate_eval_broken",
+  "has_source_patch": true,
+  "patch_files": [
+   "__init__.py",
+   "envvars.py",
+   "test_config_context_manager.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 3352,
+  "instance_id": "Project-MONAI__MONAI-1746",
+  "primary_v3": "LOC-EXPLORE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "agreement_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   ".coveragerc",
+   "reproduce_coverage_issue.py"
+  ],
+  "test_signal": {
+   "passed": 66,
+   "failed": 2,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 5752,
+  "instance_id": "Project-MONAI__MONAI-2753",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG",
+   "TOOL"
+  ],
+  "provenance": "adjudicated_final",
+  "has_source_patch": true,
+  "patch_files": [
+   "image_reader.py",
+   "reproduce_issue.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": true
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3115,
+  "instance_id": "getmoto__moto-6208",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "agreement_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "template.py",
+   "tokenizer.py",
+   "reproduce_error.py",
+   "testTemplate.json"
+  ],
+  "test_signal": {
+   "passed": 1,
+   "failed": 4,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 5961,
+  "instance_id": "pandas-dev__pandas-53681",
+  "primary_v3": "LOC-REPAIR",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "agreement_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "test_dateoffset_bug.py"
+  ],
+  "test_signal": {
+   "passed": 2688,
+   "failed": 2,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 180,
+  "instance_id": "modin-project__modin-6780",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "adjudicated_final",
+  "has_source_patch": true,
+  "patch_files": [
+   "indexing.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": true
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3315,
+  "instance_id": "python__mypy-11247",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "adjudicated_final",
+  "has_source_patch": true,
+  "patch_files": [
+   "semanal.py",
+   "semanal_enum.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": true
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 617,
+  "instance_id": "python__mypy-12417",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "gate_eval_broken",
+  "has_source_patch": true,
+  "patch_files": [
+   "checkpattern.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": true
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 5700,
+  "instance_id": "Project-MONAI__MONAI-4263",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG",
+   "TOOL"
+  ],
+  "provenance": "adjudicated_final",
+  "has_source_patch": true,
+  "patch_files": [
+   "dictionary.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": true
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 2944,
+  "instance_id": "bokeh__bokeh-13298",
+  "primary_v3": "NARROW-REGRESSIVE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "adjudicated_final",
+  "has_source_patch": true,
+  "patch_files": [
+   "reproduce_error.py",
+   "container.py"
+  ],
+  "test_signal": {
+   "passed": 148,
+   "failed": 12,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 1555,
+  "instance_id": "python__mypy-15139",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "agreement_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "messages.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 5161,
+  "instance_id": "pandas-dev__pandas-57174",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "agreement_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "dataframe.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 45,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 5778,
+  "instance_id": "Project-MONAI__MONAI-2937",
+  "primary_v3": "NARROW-REGRESSIVE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "agreement_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "resnet.py",
+   "test_resnet.py"
+  ],
+  "test_signal": {
+   "passed": 28,
+   "failed": 14,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 3907,
+  "instance_id": "python__mypy-10689",
+  "primary_v3": "RIGID-OSCIL",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "agreement_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "checker.py",
+   "reproduce_crash.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 2757,
+  "instance_id": "Project-MONAI__MONAI-2492",
+  "primary_v3": "NARROW-REGRESSIVE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "agreement_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "misc.py",
+   "test_distributed.py"
+  ],
+  "test_signal": {
+   "passed": 6,
+   "failed": 4,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 5068,
+  "instance_id": "pandas-dev__pandas-50548",
+  "primary_v3": "LOC-REPAIR",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "agreement_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "reduced_performance_test.py"
+  ],
+  "test_signal": {
+   "passed": 1704,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 3295,
+  "instance_id": "python__mypy-16503",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "agreement_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "checker.py",
+   "checkpattern.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 1,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 2528,
+  "instance_id": "iterative__dvc-2266",
+  "primary_v3": "LIT-TASK",
+  "secondary_v3": [
+   "VERIF-ABSENT"
+  ],
+  "provenance": "adjudicated_final",
+  "has_source_patch": false,
+  "patch_files": [
+   ".gitignore"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": 3,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 5518,
+  "instance_id": "Project-MONAI__MONAI-6385",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [],
+  "provenance": "agreement_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "array.py"
+  ],
+  "test_signal": {
+   "passed": 5,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 687,
+  "instance_id": "conan-io__conan-13721",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "agreement_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "profile_loader.py",
+   "test_profile.jinja",
+   "test_profile_rendering.py"
+  ],
+  "test_signal": {
+   "passed": 6,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 396,
+  "instance_id": "conan-io__conan-11560",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "TOOL"
+  ],
+  "provenance": "agreement_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "bazeldeps.py",
+   "test_bazel_generator.py"
+  ],
+  "test_signal": {
+   "passed": 3,
+   "failed": 4,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 2561,
+  "instance_id": "iterative__dvc-4124",
+  "primary_v3": "NARROW-REGRESSIVE",
+  "secondary_v3": [
+   "HYG",
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "agreement_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "diff.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 5,
+   "failed": 29,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 5468,
+  "instance_id": "bokeh__bokeh-13318",
+  "primary_v3": "LOC-EXPLORE",
+  "secondary_v3": [
+   "HYG",
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "adjudicated_final",
+  "has_source_patch": false,
+  "patch_files": [
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 33,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3095,
+  "instance_id": "Project-MONAI__MONAI-3662",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "agreement_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "dictionary.py",
+   "test_copyitemsd.py"
+  ],
+  "test_signal": {
+   "passed": 7,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 5461,
+  "instance_id": "Project-MONAI__MONAI-5428",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "agreement_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "data_analyzer.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 17,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3612,
+  "instance_id": "conan-io__conan-14616",
+  "primary_v3": "NARROW-REGRESSIVE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "agreement_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "version_range.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 36,
+   "failed": 11,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 815,
+  "instance_id": "dask__dask-7894",
+  "primary_v3": "NARROW-REGRESSIVE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "agreement_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "overlap.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 40,
+   "failed": 40,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 4323,
+  "instance_id": "getmoto__moto-6734",
+  "primary_v3": "NARROW-REGRESSIVE",
+  "secondary_v3": [
+   "HYG",
+   "TOOL"
+  ],
+  "provenance": "agreement_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "models.py",
+   "responses.py",
+   "test_tagging.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": 62,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 2490,
+  "instance_id": "python__mypy-15506",
+  "primary_v3": "LOC-EXPLORE",
+  "secondary_v3": [
+   "CONFAB",
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "agreement_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 4448,
+  "instance_id": "iterative__dvc-9647",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "adjudicated_final",
+  "has_source_patch": true,
+  "patch_files": [
+   "schema.py",
+   "test_reproduce_error.py",
+   "config",
+   "lock",
+   ".dvcignore",
+   "dvc.yaml"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 1708,
+  "instance_id": "iterative__dvc-3794",
+  "primary_v3": "NARROW-REGRESSIVE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "agreement_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "config",
+   "remote.py",
+   "reproduce.py",
+   "config",
+   "confusion.json",
+   "default.json",
+   "scatter.json"
+  ],
+  "test_signal": {
+   "passed": 12,
+   "failed": 8,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 5181,
+  "instance_id": "pandas-dev__pandas-52236",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "adjudicated_final",
+  "has_source_patch": true,
+  "patch_files": [
+   "ops.py",
+   "reproduce_issue.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 5455,
+  "instance_id": "pandas-dev__pandas-50876",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "adjudicated_final",
+  "has_source_patch": true,
+  "patch_files": [
+   "resample.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": true
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3188,
+  "instance_id": "getmoto__moto-5134",
+  "primary_v3": "NARROW-REGRESSIVE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "adjudicated_final",
+  "has_source_patch": true,
+  "patch_files": [
+   "models.py",
+   "responses.py",
+   "reproduce_test.py"
+  ],
+  "test_signal": {
+   "passed": 12,
+   "failed": 5,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 5781,
+  "instance_id": "pandas-dev__pandas-48693",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "adjudicated_final",
+  "has_source_patch": true,
+  "patch_files": [
+   "_decorators.py",
+   "test_signature.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 5131,
+  "instance_id": "pandas-dev__pandas-56677",
+  "primary_v3": "NARROW-REGRESSIVE",
+  "secondary_v3": [
+   "VERIF-ABSENT"
+  ],
+  "provenance": "agreement_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "array.py"
+  ],
+  "test_signal": {
+   "passed": 22553,
+   "failed": 50,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 620,
+  "instance_id": "getmoto__moto-7495",
+  "primary_v3": "LOC-REPAIR",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "reproduce_issue.py"
+  ],
+  "test_signal": {
+   "passed": 94,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3396,
+  "instance_id": "iterative__dvc-6519",
+  "primary_v3": "LOC-EXPLORE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "ssh_config_test.py"
+  ],
+  "test_signal": {
+   "passed": 19,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 3467,
+  "instance_id": "pandas-dev__pandas-53672",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "gate_eval_broken",
+  "has_source_patch": true,
+  "patch_files": [
+   "generic.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 4263,
+  "instance_id": "iterative__dvc-5005",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "setup.py",
+   "test_install_webdavs.py"
+  ],
+  "test_signal": {
+   "passed": 10,
+   "failed": 2,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 3926,
+  "instance_id": "getmoto__moto-6636",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "TOOL"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "responses.py",
+   "test_script.py"
+  ],
+  "test_signal": {
+   "passed": 36,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 5555,
+  "instance_id": "Project-MONAI__MONAI-3135",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "__init__.py",
+   "test_import_issue.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 4141,
+  "instance_id": "python__mypy-11867",
+  "primary_v3": "LOC-REPAIR",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "repro_error.py",
+   "__init__.py",
+   "other.py",
+   "sub.py"
+  ],
+  "test_signal": {
+   "passed": 1,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 1816,
+  "instance_id": "dask__dask-7305",
+  "primary_v3": "NARROW-REGRESSIVE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "partitionquantiles.py",
+   "reproduce_bug.py",
+   "test_edge_cases.py"
+  ],
+  "test_signal": {
+   "passed": 101,
+   "failed": 4,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 4116,
+  "instance_id": "conan-io__conan-10874",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "rmdir.py",
+   "tools.py",
+   "test_rmdir.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 4756,
+  "instance_id": "dask__dask-10797",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG",
+   "TOOL"
+  ],
+  "provenance": "gate_eval_broken",
+  "has_source_patch": true,
+  "patch_files": [
+   "core.py",
+   "groupby.py",
+   "test_shuffle_validation_script.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 4134,
+  "instance_id": "conan-io__conan-10213",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "cmake.py",
+   "test_dynamic_import.py"
+  ],
+  "test_signal": {
+   "passed": 20,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 1768,
+  "instance_id": "pydantic__pydantic-8977",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "edge_cases.py",
+   "_generate_schema.py",
+   "_std_types_schema.py",
+   "reproduce.py"
+  ],
+  "test_signal": {
+   "passed": 1053,
+   "failed": 7,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 1624,
+  "instance_id": "getmoto__moto-7335",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "models.py",
+   "responses.py",
+   "access_control.py",
+   "reproduce.py"
+  ],
+  "test_signal": {
+   "passed": 21,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3113,
+  "instance_id": "getmoto__moto-5137",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "models.py",
+   "test_pagination.py"
+  ],
+  "test_signal": {
+   "passed": 88,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 1635,
+  "instance_id": "getmoto__moto-7348",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "edge_cases.py",
+   "table.py",
+   "reproduce.py"
+  ],
+  "test_signal": {
+   "passed": 41,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 6051,
+  "instance_id": "pandas-dev__pandas-47771",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "tile.py"
+  ],
+  "test_signal": {
+   "passed": 376,
+   "failed": 2,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 823,
+  "instance_id": "iterative__dvc-3794",
+  "primary_v3": "NARROW-REGRESSIVE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "remote.py",
+   "test_rename_remote.py"
+  ],
+  "test_signal": {
+   "passed": 12,
+   "failed": 8,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 3468,
+  "instance_id": "iterative__dvc-3532",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "s3.py",
+   "test_s3_pagination.py",
+   "test_s3_pagination_mock.py"
+  ],
+  "test_signal": {
+   "passed": 2,
+   "failed": 2,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 3009,
+  "instance_id": "Project-MONAI__MONAI-5656",
+  "primary_v3": "LOC-REPAIR",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "meta.yaml",
+   "meta.yaml",
+   "epoch_length",
+   "max_epochs",
+   "mlflow.runName",
+   "mlflow.source.git.commit",
+   "mlflow.source.name",
+   "mlflow.source.type"
+  ],
+  "test_signal": {
+   "passed": 7,
+   "failed": 4,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 1014,
+  "instance_id": "iterative__dvc-3794",
+  "primary_v3": "NARROW-REGRESSIVE",
+  "secondary_v3": [
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "config",
+   "remote.py"
+  ],
+  "test_signal": {
+   "passed": 13,
+   "failed": 7,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 1812,
+  "instance_id": "Project-MONAI__MONAI-6775",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "dice.py"
+  ],
+  "test_signal": {
+   "passed": 12,
+   "failed": 6,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 4536,
+  "instance_id": "python__mypy-15490",
+  "primary_v3": "LOC-EXPLORE",
+  "secondary_v3": [
+   "CONFAB",
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 1,
+   "failed": 3,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 4274,
+  "instance_id": "python__mypy-12767",
+  "primary_v3": "LOC-EXPLORE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "test_mypy.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 1638,
+  "instance_id": "python__mypy-11824",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "dataclasses.py"
+  ],
+  "test_signal": {
+   "passed": 1,
+   "failed": 3,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 3289,
+  "instance_id": "getmoto__moto-5107",
+  "primary_v3": "NARROW-REGRESSIVE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "models.py",
+   "responses.py",
+   "test_rds_cloudwatch_logs.py"
+  ],
+  "test_signal": {
+   "passed": 96,
+   "failed": 22,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 5386,
+  "instance_id": "pandas-dev__pandas-49249",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "gate_eval_broken",
+  "has_source_patch": true,
+  "patch_files": [
+   "_json.py",
+   "test_read_json.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 4894,
+  "instance_id": "pandas-dev__pandas-50748",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "gate_eval_broken",
+  "has_source_patch": true,
+  "patch_files": [
+   "config_init.py",
+   "repro.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": true
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 4216,
+  "instance_id": "python__mypy-11918",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "exprtotype.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3717,
+  "instance_id": "getmoto__moto-5841",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "security_groups.py",
+   "__init__.py",
+   "security_groups.py",
+   "urls.py",
+   "test_script.py"
+  ],
+  "test_signal": {
+   "passed": 44,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 667,
+  "instance_id": "Project-MONAI__MONAI-3547",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "misc.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 5172,
+  "instance_id": "pandas-dev__pandas-54109",
+  "primary_v3": "LOC-REPAIR",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 12854,
+   "failed": 140,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 6025,
+  "instance_id": "pandas-dev__pandas-48824",
+  "primary_v3": "NARROW-REGRESSIVE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "algorithms.py",
+   "reproduce_bug.py"
+  ],
+  "test_signal": {
+   "passed": 1296,
+   "failed": 1950,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 2990,
+  "instance_id": "Project-MONAI__MONAI-4733",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "meta_tensor.py",
+   "test_meta_tensor_operations.py"
+  ],
+  "test_signal": {
+   "passed": 4,
+   "failed": 4,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 627,
+  "instance_id": "python__mypy-11966",
+  "primary_v3": "LOC-REPAIR",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 4201,
+  "instance_id": "iterative__dvc-2164",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   ".gitignore",
+   "config",
+   "destroy.py",
+   "run_destroy_test.py",
+   "dvc.ico.dvc",
+   "dvc_left.bmp.dvc",
+   "dvc_up.bmp.dvc",
+   "test_destroy_functionality.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 3730,
+  "instance_id": "getmoto__moto-6238",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "models.py",
+   "reproduce_issue.py"
+  ],
+  "test_signal": {
+   "passed": 79,
+   "failed": 2,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 5978,
+  "instance_id": "Project-MONAI__MONAI-2513",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "focal_loss.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 10,
+   "failed": 6,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 2973,
+  "instance_id": "Project-MONAI__MONAI-5183",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "array.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": 12,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 5538,
+  "instance_id": "Project-MONAI__MONAI-3715",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "evaluator.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 1,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3615,
+  "instance_id": "iterative__dvc-8251",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "schema.py",
+   "reproduce_error.py",
+   "config",
+   "cache.db",
+   "cache.db",
+   ".dvcignore",
+   "dvc.yaml",
+   "test_edge_cases.py"
+  ],
+  "test_signal": {
+   "passed": 20,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 4772,
+  "instance_id": "dask__dask-6992",
+  "primary_v3": "NARROW-REGRESSIVE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "groupby.py",
+   "data.csv",
+   "test_groupby_dropna.py"
+  ],
+  "test_signal": {
+   "passed": 666,
+   "failed": 77,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 4931,
+  "instance_id": "pandas-dev__pandas-53458",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "merge.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 123,
+   "failed": 3,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3791,
+  "instance_id": "getmoto__moto-7085",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "table.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 55,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 1642,
+  "instance_id": "getmoto__moto-7484",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "table.py",
+   "reproduce.py"
+  ],
+  "test_signal": {
+   "passed": 189,
+   "failed": 3,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 4901,
+  "instance_id": "pandas-dev__pandas-56767",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "boolean.py",
+   "masked.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 88,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 2832,
+  "instance_id": "bokeh__bokeh-13198",
+  "primary_v3": "LOC-REPAIR",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 12,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3143,
+  "instance_id": "getmoto__moto-7382",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "responses.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 40,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 5721,
+  "instance_id": "Project-MONAI__MONAI-6412",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "meandice.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 4,
+   "failed": 19,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 4027,
+  "instance_id": "getmoto__moto-4846",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "exceptions.py",
+   "policy.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 37,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3497,
+  "instance_id": "iterative__dvc-5747",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "base.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 8,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 5846,
+  "instance_id": "Project-MONAI__MONAI-6127",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "utils.py",
+   "reproduce_issue.py"
+  ],
+  "test_signal": {
+   "passed": 60,
+   "failed": 4,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 185,
+  "instance_id": "python__mypy-10424",
+  "primary_v3": "LOC-REPAIR",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3989,
+  "instance_id": "getmoto__moto-6919",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "key_pairs.py",
+   "test_key_pairs.py"
+  ],
+  "test_signal": {
+   "passed": 14,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 376,
+  "instance_id": "getmoto__moto-5478",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "models.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 88,
+   "failed": 2,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 4749,
+  "instance_id": "pydantic__pydantic-9135",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG",
+   "TOOL"
+  ],
+  "provenance": "gate_eval_broken",
+  "has_source_patch": true,
+  "patch_files": [
+   "json_schema.py",
+   "test_literal_schema.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": true
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 5321,
+  "instance_id": "pandas-dev__pandas-53301",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "datetimes.py",
+   "reproduce_perf_issue.py"
+  ],
+  "test_signal": {
+   "passed": 934,
+   "failed": 8,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 809,
+  "instance_id": "python__mypy-11567",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "astdiff.py",
+   "reproduce_error.py",
+   "test_snapshot.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 3979,
+  "instance_id": "python__mypy-16061",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "errorcodes.py",
+   "message_registry.py",
+   "messages.py",
+   "test_unsafe_overload.py"
+  ],
+  "test_signal": {
+   "passed": 1,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 4007,
+  "instance_id": "python__mypy-16905",
+  "primary_v3": "LOC-EXPLORE",
+  "secondary_v3": [
+   "HYG",
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "repro_script.py"
+  ],
+  "test_signal": {
+   "passed": 8,
+   "failed": 2,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 798,
+  "instance_id": "getmoto__moto-6355",
+  "primary_v3": "LOC-REPAIR",
+  "secondary_v3": [
+   "HYG",
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 24,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 4460,
+  "instance_id": "python__mypy-10053",
+  "primary_v3": "NARROW-REGRESSIVE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "message_registry.py",
+   "test_script.py"
+  ],
+  "test_signal": {
+   "passed": 30,
+   "failed": 56,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 3434,
+  "instance_id": "dask__dask-8610",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "utils.py",
+   "utils.py",
+   "test_assert_eq.py"
+  ],
+  "test_signal": {
+   "passed": 32,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 4986,
+  "instance_id": "pandas-dev__pandas-53288",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG",
+   "TOOL"
+  ],
+  "provenance": "gate_eval_broken",
+  "has_source_patch": true,
+  "patch_files": [
+   "range.py",
+   "reproduce_bug.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 1670,
+  "instance_id": "getmoto__moto-7495",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "instances.py",
+   "instances.py"
+  ],
+  "test_signal": {
+   "passed": 94,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 2567,
+  "instance_id": "Project-MONAI__MONAI-5117",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "prob_map_producer.py",
+   "probability_maps.py",
+   "test_meta_tensor_support.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": 3,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 133,
+  "instance_id": "iterative__dvc-2141",
+  "primary_v3": "LOC-EXPLORE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   ".gitignore",
+   "metrics.yaml",
+   "metrics_output.log",
+   "reproduce_error.py",
+   "setup_bigram_experiment.py"
+  ],
+  "test_signal": {
+   "passed": 26,
+   "failed": 79,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3382,
+  "instance_id": "getmoto__moto-5216",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "utils.py",
+   "test_reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 15,
+   "failed": 3,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 5827,
+  "instance_id": "modin-project__modin-6764",
+  "primary_v3": "NARROW-REGRESSIVE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "final_reproduce_script.py",
+   "utils.py",
+   "reproduce_experimental_mode.py",
+   "test_file0.pkl"
+  ],
+  "test_signal": {
+   "passed": 9,
+   "failed": 39,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3811,
+  "instance_id": "getmoto__moto-6864",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "models.py",
+   "test_glue_tables.py"
+  ],
+  "test_signal": {
+   "passed": 50,
+   "failed": 2,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 5841,
+  "instance_id": "Project-MONAI__MONAI-5217",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "compose.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 9,
+   "failed": 2,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 1314,
+  "instance_id": "python__mypy-11236",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "typeops.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 4836,
+  "instance_id": "dask__dask-6608",
+  "primary_v3": "NARROW-REGRESSIVE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "core.py",
+   "reproduce_error.py",
+   "test_fill_nonnull.py"
+  ],
+  "test_signal": {
+   "passed": 488,
+   "failed": 8,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 1525,
+  "instance_id": "getmoto__moto-5620",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "__init__.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 30,
+   "failed": 2,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 1051,
+  "instance_id": "conan-io__conan-11594",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "TOOL"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "cmake.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 5,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 4529,
+  "instance_id": "iterative__dvc-4049",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "local.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 5,
+   "failed": 10,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 204,
+  "instance_id": "Project-MONAI__MONAI-2061",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "meandice.py",
+   "test_reproduction.py"
+  ],
+  "test_signal": {
+   "passed": 2,
+   "failed": 2,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 4532,
+  "instance_id": "pydantic__pydantic-8066",
+  "primary_v3": "LOC-REPAIR",
+  "secondary_v3": [
+   "HYG",
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 370,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 4803,
+  "instance_id": "dask__dask-10784",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "core.py",
+   "test_set_index_deprecation.py"
+  ],
+  "test_signal": {
+   "passed": 258,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 1137,
+  "instance_id": "pandas-dev__pandas-56849",
+  "primary_v3": "LOC-REPAIR",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 425,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3835,
+  "instance_id": "getmoto__moto-5486",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "gate_eval_broken",
+  "has_source_patch": true,
+  "patch_files": [
+   "ec2_security_group_test.py",
+   "instances.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": true
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 5119,
+  "instance_id": "pandas-dev__pandas-52551",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "gate_eval_broken",
+  "has_source_patch": true,
+  "patch_files": [
+   "base.py",
+   "test_diff_method.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 789,
+  "instance_id": "iterative__dvc-3677",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   ".gitignore",
+   "config",
+   ".gitignore",
+   "dummy_file.txt.dvc",
+   "add.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 5,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 1663,
+  "instance_id": "iterative__dvc-4066",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "ignore.py"
+  ],
+  "test_signal": {
+   "passed": 11,
+   "failed": 3,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 5345,
+  "instance_id": "pandas-dev__pandas-49212",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "style.py",
+   "reproduce_issue.py"
+  ],
+  "test_signal": {
+   "passed": 241,
+   "failed": 10,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 5125,
+  "instance_id": "pandas-dev__pandas-49228",
+  "primary_v3": "NARROW-REGRESSIVE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "stata.py",
+   "test_stata_reader.py"
+  ],
+  "test_signal": {
+   "passed": 39,
+   "failed": 545,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 1651,
+  "instance_id": "python__mypy-15131",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "edge_cases.py",
+   "checker.py",
+   "reproduce.py"
+  ],
+  "test_signal": {
+   "passed": 1,
+   "failed": 2,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 1618,
+  "instance_id": "python__mypy-16905",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "checkpattern.py",
+   "reproduce.py"
+  ],
+  "test_signal": {
+   "passed": 8,
+   "failed": 2,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 631,
+  "instance_id": "Project-MONAI__MONAI-3326",
+  "primary_v3": "LOC-REPAIR",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "test_affine_reproduce.py"
+  ],
+  "test_signal": {
+   "passed": 88,
+   "failed": 4,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 1757,
+  "instance_id": "Project-MONAI__MONAI-3690",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "evaluator.py"
+  ],
+  "test_signal": {
+   "passed": 2,
+   "failed": 2,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 4658,
+  "instance_id": "iterative__dvc-8177",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "show.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": 30,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 878,
+  "instance_id": "getmoto__moto-7273",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "table.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 161,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3420,
+  "instance_id": "getmoto__moto-7144",
+  "primary_v3": "LOC-REPAIR",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 25,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 3012,
+  "instance_id": "Project-MONAI__MONAI-7108",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "validation_handler.py",
+   "reproduce_validation_before_training.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3715,
+  "instance_id": "getmoto__moto-7347",
+  "primary_v3": "NARROW-REGRESSIVE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "models.py",
+   "__init__.py",
+   "handler.py",
+   "test_reproduce_issue.py"
+  ],
+  "test_signal": {
+   "passed": 3,
+   "failed": 11,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 5261,
+  "instance_id": "pandas-dev__pandas-56538",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG",
+   "TOOL"
+  ],
+  "provenance": "gate_eval_broken",
+  "has_source_patch": true,
+  "patch_files": [
+   "array.py",
+   "reproduce_issue.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 4811,
+  "instance_id": "dask__dask-8261",
+  "primary_v3": "NARROW-REGRESSIVE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "graph_manipulation.py",
+   "highlevelgraph.py",
+   "reproduce_keyerror.py",
+   ".zarray"
+  ],
+  "test_signal": {
+   "passed": 443,
+   "failed": 19,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 5702,
+  "instance_id": "modin-project__modin-7018",
+  "primary_v3": "LOC-EXPLORE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 8,
+   "failed": 2,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3374,
+  "instance_id": "conan-io__conan-12307",
+  "primary_v3": "NARROW-REGRESSIVE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "conanfile.py",
+   "pkg_config.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 21,
+   "failed": 9,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 4875,
+  "instance_id": "dask__dask-9342",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "core.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 408,
+   "failed": 18,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 2783,
+  "instance_id": "pandas-dev__pandas-53443",
+  "primary_v3": "LOC-REPAIR",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "test_xz_compression.py"
+  ],
+  "test_signal": {
+   "passed": 130,
+   "failed": 6,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 4659,
+  "instance_id": "iterative__dvc-6799",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG",
+   "TOOL"
+  ],
+  "provenance": "gate_eval_broken",
+  "has_source_patch": true,
+  "patch_files": [
+   "experiments.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": true
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3596,
+  "instance_id": "iterative__dvc-1817",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "checkout.py",
+   "test_reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 1,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 5210,
+  "instance_id": "pandas-dev__pandas-48555",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "datetimes.py",
+   "reproducible_script.py"
+  ],
+  "test_signal": {
+   "passed": 155,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3375,
+  "instance_id": "getmoto__moto-7336",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "models.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 12,
+   "failed": 9,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 4292,
+  "instance_id": "python__mypy-17293",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "gate_eval_broken",
+  "has_source_patch": true,
+  "patch_files": [
+   "checkmember.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 5645,
+  "instance_id": "Project-MONAI__MONAI-6793",
+  "primary_v3": "LOC-REPAIR",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "test_ssimloss.py"
+  ],
+  "test_signal": {
+   "passed": 4,
+   "failed": 4,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 2926,
+  "instance_id": "pandas-dev__pandas-48774",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "gate_eval_broken",
+  "has_source_patch": false,
+  "patch_files": [
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": true
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 5635,
+  "instance_id": "pandas-dev__pandas-51241",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "TOOL"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "base.py",
+   "test_script.py"
+  ],
+  "test_signal": {
+   "passed": 327,
+   "failed": 3,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 4035,
+  "instance_id": "python__mypy-14739",
+  "primary_v3": "LOC-EXPLORE",
+  "secondary_v3": [
+   "HYG",
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 3,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 103,
+  "instance_id": "iterative__dvc-4125",
+  "primary_v3": "LIT-TASK",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept+lit_mapped",
+  "has_source_patch": false,
+  "patch_files": [
+   ".dvcignore",
+   "coco-1593013621.885437.json",
+   "reproduce_error.py",
+   "verify_dvcignore.py"
+  ],
+  "test_signal": {
+   "passed": 18,
+   "failed": 4,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 2966,
+  "instance_id": "Project-MONAI__MONAI-7549",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "workflows.py",
+   "simple_workflow.py",
+   "test_bundle_workflow.py"
+  ],
+  "test_signal": {
+   "passed": 4,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 3885,
+  "instance_id": "python__mypy-15045",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "gate_eval_broken",
+  "has_source_patch": true,
+  "patch_files": [
+   "subtypes.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": true
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 4758,
+  "instance_id": "pydantic__pydantic-9082",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG",
+   "TOOL"
+  ],
+  "provenance": "gate_eval_broken",
+  "has_source_patch": true,
+  "patch_files": [
+   "main.py",
+   "reproduce_issue.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": true
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 1024,
+  "instance_id": "python__mypy-10401",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG",
+   "TOOL"
+  ],
+  "provenance": "gate_eval_broken",
+  "has_source_patch": true,
+  "patch_files": [
+   "types.py",
+   "repro.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": true
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 4496,
+  "instance_id": "iterative__dvc-1980",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "__init__.py",
+   "test_install.py"
+  ],
+  "test_signal": {
+   "passed": 4,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 665,
+  "instance_id": "Project-MONAI__MONAI-2061",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "meandice.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 2,
+   "failed": 2,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 819,
+  "instance_id": "conan-io__conan-11594",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "CMakeLists.txt",
+   "CMakePresets.json",
+   "cmakedeps_macros.cmake",
+   "conan_toolchain.cmake",
+   "conanbuild.sh",
+   "conanbuildenv-release-x86_64.sh",
+   "conandeps_legacy.cmake",
+   "conanfile.py"
+  ],
+  "test_signal": {
+   "passed": 5,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 2981,
+  "instance_id": "Project-MONAI__MONAI-2837",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "incut_outcut.py",
+   "test_incut_outcut.py"
+  ],
+  "test_signal": {
+   "passed": 8,
+   "failed": 3,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 4337,
+  "instance_id": "iterative__dvc-8251",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "loader.py",
+   "test_labels_type_desc.py"
+  ],
+  "test_signal": {
+   "passed": 10,
+   "failed": 11,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 2774,
+  "instance_id": "pandas-dev__pandas-47434",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "gate_eval_broken",
+  "has_source_patch": true,
+  "patch_files": [
+   "_xlsxwriter.py",
+   "reproduce_error.py",
+   "test.xlsx"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 5684,
+  "instance_id": "Project-MONAI__MONAI-2104",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "TOOL"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "dictionary.py",
+   "test_deepcopy_issue.py"
+  ],
+  "test_signal": {
+   "passed": 11,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 4611,
+  "instance_id": "iterative__dvc-1848",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "cli.py",
+   "daemon.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": 2,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 4246,
+  "instance_id": "iterative__dvc-3559",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "TOOL"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "base.py",
+   "test_gc.py"
+  ],
+  "test_signal": {
+   "passed": 2,
+   "failed": 3,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 3978,
+  "instance_id": "getmoto__moto-6609",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "models.py",
+   "test_sm2dsa_support.py"
+  ],
+  "test_signal": {
+   "passed": 113,
+   "failed": 3,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 1103,
+  "instance_id": "iterative__dvc-4961",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "__init__.py",
+   "dvc_dict_version.yaml",
+   "dvc_list_version.yaml",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 43,
+   "failed": 4,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 639,
+  "instance_id": "pydantic__pydantic-8793",
+  "primary_v3": "LOC-REPAIR",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 377,
+   "failed": 3,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 2747,
+  "instance_id": "pandas-dev__pandas-57060",
+  "primary_v3": "LOC-REPAIR",
+  "secondary_v3": [
+   "HYG",
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 22936,
+   "failed": 18,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3819,
+  "instance_id": "getmoto__moto-6208",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "error_reproduction.py",
+   "template.py"
+  ],
+  "test_signal": {
+   "passed": 1,
+   "failed": 4,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 5426,
+  "instance_id": "pandas-dev__pandas-51987",
+  "primary_v3": "NARROW-REGRESSIVE",
+  "secondary_v3": [
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "array.py",
+   "config_init.py"
+  ],
+  "test_signal": {
+   "passed": 20192,
+   "failed": 424,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 4681,
+  "instance_id": "pydantic__pydantic-4911",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "gate_eval_broken",
+  "has_source_patch": true,
+  "patch_files": [
+   "_model_construction.py",
+   "fields.py",
+   "reproduce_issue.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": true
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 4196,
+  "instance_id": "iterative__dvc-5118",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "base.py",
+   "base.py",
+   "run_reproduce_script.py"
+  ],
+  "test_signal": {
+   "passed": 5,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 5539,
+  "instance_id": "Project-MONAI__MONAI-2530",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "interaction.py",
+   "patch_apply.py",
+   "reproduce_error.py",
+   "trace_execution.py"
+  ],
+  "test_signal": {
+   "passed": 19,
+   "failed": 5,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 4552,
+  "instance_id": "conan-io__conan-12762",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "cmake.py",
+   "test_install_component.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 5597,
+  "instance_id": "facebookresearch__hydra-614",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "gate_eval_broken",
+  "has_source_patch": true,
+  "patch_files": [
+   "global_hydra.py",
+   "job.py",
+   "main.py",
+   "sample_config.yaml",
+   "setup_hydra_resolver.py",
+   "test_resolver.py",
+   "test_resolver_simple.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 601,
+  "instance_id": "python__mypy-10424",
+  "primary_v3": "LOC-REPAIR",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 2831,
+  "instance_id": "Project-MONAI__MONAI-7121",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "utils.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 1629,
+  "instance_id": "python__mypy-9629",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "checkexpr.py"
+  ],
+  "test_signal": {
+   "passed": 2,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 5441,
+  "instance_id": "pandas-dev__pandas-57205",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "frame.py",
+   "test_reproduction.py"
+  ],
+  "test_signal": {
+   "passed": 982,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 5624,
+  "instance_id": "pandas-dev__pandas-57297",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "generic.py",
+   "reproduce_bug.py",
+   "reproduce_bug_output.txt"
+  ],
+  "test_signal": {
+   "passed": 59,
+   "failed": 7,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3567,
+  "instance_id": "iterative__dvc-10386",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "artifacts.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 31,
+   "failed": 7,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3052,
+  "instance_id": "pandas-dev__pandas-52058",
+  "primary_v3": "NARROW-REGRESSIVE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "array.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 19680,
+   "failed": 5432,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 5389,
+  "instance_id": "pandas-dev__pandas-48058",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "TOOL"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "frame.py",
+   "test_reset_index.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 124,
+  "instance_id": "python__mypy-11707",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "X.py",
+   "__init__.py",
+   "c.py",
+   "d.py",
+   "semanal.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 1,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3439,
+  "instance_id": "dask__dask-6626",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "shuffle.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 14,
+   "failed": 2,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 4254,
+  "instance_id": "getmoto__moto-6726",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "manual_decompress.py",
+   "responses.py",
+   "reproduce_error.py",
+   "test_decompress.py"
+  ],
+  "test_signal": {
+   "passed": 6,
+   "failed": 3,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 669,
+  "instance_id": "dask__dask-6626",
+  "primary_v3": "LOC-REPAIR",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 14,
+   "failed": 2,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 778,
+  "instance_id": "getmoto__moto-6157",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "responses.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 9,
+   "failed": 4,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 5599,
+  "instance_id": "Project-MONAI__MONAI-5468",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "dice.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 9,
+   "failed": 9,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3932,
+  "instance_id": "getmoto__moto-5438",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "models.py",
+   "test_parts_count.py",
+   "test_parts_count_corrected.py"
+  ],
+  "test_signal": {
+   "passed": 29,
+   "failed": 3,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 604,
+  "instance_id": "python__mypy-11567",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "gate_eval_broken",
+  "has_source_patch": true,
+  "patch_files": [
+   "astdiff.py",
+   "test_paramspec.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": true
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 1546,
+  "instance_id": "python__mypy-11352",
+  "primary_v3": "LOC-REPAIR",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 1,
+   "failed": 3,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3116,
+  "instance_id": "getmoto__moto-7085",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "table.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 53,
+   "failed": 3,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 4365,
+  "instance_id": "conan-io__conan-14760",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "remove.py",
+   "test_dry_run_remove.py"
+  ],
+  "test_signal": {
+   "passed": 108,
+   "failed": 2,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 4397,
+  "instance_id": "iterative__dvc-5185",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "ignore.py",
+   "__init__.py",
+   "cache.py",
+   "utils.py",
+   "reproduce_issue.sh"
+  ],
+  "test_signal": {
+   "passed": 7,
+   "failed": 2,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 434,
+  "instance_id": "iterative__dvc-3794",
+  "primary_v3": "NARROW-REGRESSIVE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   ".gitignore",
+   "config",
+   "remote.py",
+   "test_rename_remote.py"
+  ],
+  "test_signal": {
+   "passed": 12,
+   "failed": 8,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 3871,
+  "instance_id": "getmoto__moto-7537",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "models.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 2809,
+  "instance_id": "Project-MONAI__MONAI-4174",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "meandice.py",
+   "reproduce_error.py",
+   "test_reduction.py"
+  ],
+  "test_signal": {
+   "passed": 80,
+   "failed": 23,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 4373,
+  "instance_id": "dask__dask-8676",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "creation.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 599,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 4950,
+  "instance_id": "pandas-dev__pandas-47774",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "gate_eval_broken",
+  "has_source_patch": true,
+  "patch_files": [
+   "generic.py",
+   "reproduce_bug.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 645,
+  "instance_id": "Project-MONAI__MONAI-4688",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "create_images.py",
+   "utils.py",
+   "reproduce_error.py",
+   "image1.png",
+   "image2.png"
+  ],
+  "test_signal": {
+   "passed": 1,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 5755,
+  "instance_id": "Project-MONAI__MONAI-2156",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "meandice.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": 3,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 4553,
+  "instance_id": "iterative__dvc-8152",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "show.py",
+   "reproduce.sh",
+   "reproduce_error.py",
+   "test_repo"
+  ],
+  "test_signal": {
+   "passed": 4,
+   "failed": 19,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 5023,
+  "instance_id": "pandas-dev__pandas-53519",
+  "primary_v3": "LOC-REPAIR",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "reproduce_bug.py"
+  ],
+  "test_signal": {
+   "passed": 207,
+   "failed": 4,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 5497,
+  "instance_id": "Project-MONAI__MONAI-3440",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "dataset.py",
+   "iterable_dataset.py",
+   "test_dataframe_input.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": 2,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 3927,
+  "instance_id": "python__mypy-15133",
+  "primary_v3": "LOC-EXPLORE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "fix_issue.py",
+   "reproduce_issue.py"
+  ],
+  "test_signal": {
+   "passed": 5,
+   "failed": 5,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 813,
+  "instance_id": "iterative__dvc-5004",
+  "primary_v3": "LOC-REPAIR",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "dvc.yaml",
+   "params.yaml",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 30,
+   "failed": 22,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 1801,
+  "instance_id": "pydantic__pydantic-9214",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "edge_cases.py",
+   "json_schema.py",
+   "reproduce.py"
+  ],
+  "test_signal": {
+   "passed": 75,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3805,
+  "instance_id": "getmoto__moto-5212",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "vpcs.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 44,
+   "failed": 5,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 2962,
+  "instance_id": "Project-MONAI__MONAI-5526",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "TOOL"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "__init__.py",
+   "dictionary.py",
+   "test_script.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": 2,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 370,
+  "instance_id": "python__mypy-9909",
+  "primary_v3": "LOC-REPAIR",
+  "secondary_v3": [
+   "HYG",
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 3,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 588,
+  "instance_id": "getmoto__moto-5699",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "models.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 1,
+   "failed": 2,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 4368,
+  "instance_id": "dask__dask-8801",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "config.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 40,
+   "failed": 5,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 908,
+  "instance_id": "conan-io__conan-15422",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "presets.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 40,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3443,
+  "instance_id": "python__mypy-14988",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "emitclass.py",
+   "reproduce_error.cpython-311-x86_64-linux-gnu.so",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 33,
+   "failed": 2,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 5946,
+  "instance_id": "Project-MONAI__MONAI-1079",
+  "primary_v3": "LOC-REPAIR",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "segmentation_focal_loss_test.py"
+  ],
+  "test_signal": {
+   "passed": 56,
+   "failed": 77,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 1517,
+  "instance_id": "getmoto__moto-6308",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "models.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 24,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 1723,
+  "instance_id": "iterative__dvc-1712",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "state.py",
+   "reproduce_issue.py",
+   "test_state.py"
+  ],
+  "test_signal": {
+   "passed": 2,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 4137,
+  "instance_id": "conan-io__conan-13788",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "gate_eval_broken",
+  "has_source_patch": true,
+  "patch_files": [
+   "conanfile.py",
+   "conanfile.py",
+   "graph.py",
+   "conan.lock",
+   "conanfile.py",
+   "profile",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 830,
+  "instance_id": "conan-io__conan-14296",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "presets.py",
+   "CMakePresets.json",
+   "conan_toolchain.cmake",
+   "conanbuild.sh",
+   "conanbuildenv.sh",
+   "conanfile.py",
+   "conanrun.sh",
+   "conanrunenv.sh"
+  ],
+  "test_signal": {
+   "passed": 32,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 4413,
+  "instance_id": "dask__dask-9148",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "gate_eval_broken",
+  "has_source_patch": true,
+  "patch_files": [
+   "base.py",
+   "test_script.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 5610,
+  "instance_id": "Project-MONAI__MONAI-3277",
+  "primary_v3": "LOC-EXPLORE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "reproduce_freeze_issue.py",
+   "test_cachedataset_persistent_workers.py"
+  ],
+  "test_signal": {
+   "passed": 13,
+   "failed": 3,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3943,
+  "instance_id": "python__mypy-17276",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "checker.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 1,
+   "failed": 2,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 5362,
+  "instance_id": "pandas-dev__pandas-49091",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "CONFAB",
+   "HYG"
+  ],
+  "provenance": "gate_eval_broken",
+  "has_source_patch": false,
+  "patch_files": [
+   "temp.csv",
+   "test_read_nullable_csv.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": true
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 3283,
+  "instance_id": "getmoto__moto-6057",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "gate_eval_broken",
+  "has_source_patch": true,
+  "patch_files": [
+   "security_groups.py",
+   "security_groups.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": true
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3873,
+  "instance_id": "python__mypy-16503",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "gate_eval_broken",
+  "has_source_patch": true,
+  "patch_files": [
+   "checkexpr.py",
+   "checkpattern.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 4286,
+  "instance_id": "getmoto__moto-5482",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "gate_eval_broken",
+  "has_source_patch": true,
+  "patch_files": [
+   "__init__.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3234,
+  "instance_id": "Project-MONAI__MONAI-5416",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "dice.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 4,
+   "failed": 2,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 2943,
+  "instance_id": "Project-MONAI__MONAI-1832",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "dataset.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": 7,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 5926,
+  "instance_id": "pandas-dev__pandas-56167",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "TOOL"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "accessors.py",
+   "test_struct_field.py"
+  ],
+  "test_signal": {
+   "passed": 7,
+   "failed": 5,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 5797,
+  "instance_id": "pandas-dev__pandas-57169",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "gate_eval_broken",
+  "has_source_patch": true,
+  "patch_files": [
+   "sorting.py",
+   "reproduce_issue_test.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 2691,
+  "instance_id": "pandas-dev__pandas-57174",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "dataframe.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 44,
+   "failed": 2,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 1748,
+  "instance_id": "Project-MONAI__MONAI-4109",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "utils.py"
+  ],
+  "test_signal": {
+   "passed": 54,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 2974,
+  "instance_id": "pandas-dev__pandas-49333",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "gate_eval_broken",
+  "has_source_patch": true,
+  "patch_files": [
+   "datetimes.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 1622,
+  "instance_id": "python__mypy-9625",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "exprtotype.py",
+   "semanal.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": true
+ },
+ {
+  "idx": 1049,
+  "instance_id": "getmoto__moto-5752",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG"
+  ],
+  "provenance": "gate_eval_broken",
+  "has_source_patch": true,
+  "patch_files": [
+   "models.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": true
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 4043,
+  "instance_id": "getmoto__moto-5011",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "models.py",
+   "responses.py",
+   "urls.py",
+   "reproduce_scheduled_action_error.py"
+  ],
+  "test_signal": {
+   "passed": 1,
+   "failed": 14,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 1518,
+  "instance_id": "getmoto__moto-5737",
+  "primary_v3": "EVAL-BROKEN",
+  "secondary_v3": [
+   "HYG",
+   "TOOL"
+  ],
+  "provenance": "gate_eval_broken",
+  "has_source_patch": true,
+  "patch_files": [
+   "models.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": null,
+   "failed": null,
+   "eval_interrupted": true
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3392,
+  "instance_id": "getmoto__moto-6816",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "dynamo_type.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 160,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 3353,
+  "instance_id": "getmoto__moto-5417",
+  "primary_v3": "NARROW-INCOMPLETE",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": true,
+  "patch_files": [
+   "models.py",
+   "reproduce_error.py"
+  ],
+  "test_signal": {
+   "passed": 31,
+   "failed": null,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ },
+ {
+  "idx": 5666,
+  "instance_id": "pandas-dev__pandas-54102",
+  "primary_v3": "LOC-REPAIR",
+  "secondary_v3": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "provenance": "v2_kept",
+  "has_source_patch": false,
+  "patch_files": [
+   "reproduce_bug.py"
+  ],
+  "test_signal": {
+   "passed": 104,
+   "failed": 1,
+   "eval_interrupted": false
+  },
+  "tests_run_real": false
+ }
+]
