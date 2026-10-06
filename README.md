@@ -81,4 +81,16 @@ The annotations, rubric and statistics in this repository are released under [CC
 | `edit-recovery/` | CASC / TOOL / RIGID | Truncate a trajectory before its first failed edit and score recovery |
 | `hygiene-check/` | HYG | Cleanliness score (0–100) and flags for a git diff |
 
-**Status:** each harness runs end to end but has only been exercised with deterministic stub agents; no real agent has been evaluated. The demos need the source trajectories, which are not redistributed here — see `eval-proto/README.md` for how to obtain them.
+**Status:** `localization-probe` and `hygiene-check` have been run on real data in [`kaggle/gemma4_experiments.ipynb`](kaggle/gemma4_experiments.ipynb) (Kaggle, 2×T4). `edit-recovery` has only been exercised with deterministic stubs. The local demos need the source trajectories, which are not redistributed here — see `eval-proto/README.md`.
+
+### Gemma 4 results (233 unique task instances, Wilson 95% CIs)
+
+| System | hit@1 | hit@5 | MRR |
+|---|---|---|---|
+| BM25 over paths (top-50 pool) | 15.5 [11.4, 20.6] | 30.5 [24.9, 36.7] | 0.241 |
+| Gemma 4 E4B-it (4-bit) | 45.9 [39.6, 52.3] | 61.8 [55.4, 67.8] | 0.536 |
+| Gemma 4 12B-it (4-bit) | 50.2 [43.8, 56.6] | 63.9 [57.6, 69.8] | 0.563 |
+
+Gold file inside the BM25 top-50 pool: 70.4%. By the GPT-4o agent's failure branch, Gemma 4 12B hit@5 is 41.0% [27.1, 56.6] on LOC-* instances (n = 39) vs 73.0% [65.5, 79.5] on NARROW-* instances (n = 152).
+
+hygiene-check vs human HYG tag on 250 agent patches: precision 0.996, recall 1.0, κ = 0.966 (same surface criteria as the rubric, so not an independent validity test); 97.6% of gold patches score 100.
