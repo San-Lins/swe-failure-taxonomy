@@ -1,0 +1,64 @@
+{
+ "loc": [
+  {
+   "system": "BM25 (paths)",
+   "hit@1": 0.155,
+   "hit@3": 0.249,
+   "hit@5": 0.305,
+   "MRR": 0.241
+  },
+  {
+   "system": "gemma-4-e4b-it",
+   "hit@1": 0.459,
+   "hit@3": 0.605,
+   "hit@5": 0.618,
+   "MRR": 0.536
+  },
+  {
+   "system": "gemma-4-12b-it",
+   "hit@1": 0.502,
+   "hit@3": 0.618,
+   "hit@5": 0.639,
+   "MRR": 0.563
+  }
+ ],
+ "n": 233,
+ "pool": 50,
+ "pool_recall": 0.703862660944206,
+ "by_branch": {
+  "LOC-*": {
+   "BM25 (paths)": 0.15384615384615385,
+   "gemma-4-e4b-it": 0.38461538461538464,
+   "gemma-4-12b-it": 0.41025641025641024,
+   "n": 39
+  },
+  "NARROW-*": {
+   "BM25 (paths)": 0.3618421052631579,
+   "gemma-4-e4b-it": 0.7105263157894737,
+   "gemma-4-12b-it": 0.7302631578947368,
+   "n": 152
+  },
+  "other": {
+   "BM25 (paths)": 0.23809523809523808,
+   "gemma-4-e4b-it": 0.5,
+   "gemma-4-12b-it": 0.5238095238095238,
+   "n": 42
+  }
+ },
+ "hygiene": {
+  "n": 250,
+  "tp": 234,
+  "fp": 1,
+  "fn": 0,
+  "tn": 15,
+  "precision": 0.996,
+  "recall": 1.0,
+  "accuracy": 0.996,
+  "kappa": 0.966,
+  "agent_score_mean": 64.4,
+  "agent_score_median": 72.5,
+  "gold_score_mean": 99.2,
+  "gold_score_100_share": 0.976,
+  "touches_tests_share": 0.328
+ }
+}

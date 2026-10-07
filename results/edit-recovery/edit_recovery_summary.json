@@ -1,0 +1,72 @@
+{
+ "status": {
+  "no_failed_edit": 160,
+  "truncatable": 90
+ },
+ "n_truncatable": 90,
+ "n_reproduced": 79,
+ "n_labels": 250,
+ "truncation_yield": 0.36,
+ "table": [
+  {
+   "system": "GPT-4o (original trajectory, next 6 turns)",
+   "n": 79,
+   "recovered": 64,
+   "recovery_pct": 81.0,
+   "ci": [
+    71.0,
+    88.1
+   ],
+   "median_steps": 2,
+   "parses_pct": 71.9,
+   "in_gold_pct": 68.8
+  },
+  {
+   "system": "gemma-4-12b-it",
+   "n": 79,
+   "recovered": 11,
+   "recovery_pct": 13.9,
+   "ci": [
+    8.0,
+    23.2
+   ],
+   "median_steps": 3,
+   "parses_pct": 100.0,
+   "in_gold_pct": 72.7
+  },
+  {
+   "system": "gemma-4-e4b-it",
+   "n": 79,
+   "recovered": 13,
+   "recovery_pct": 16.5,
+   "ci": [
+    9.9,
+    26.1
+   ],
+   "median_steps": 2,
+   "parses_pct": 76.9,
+   "in_gold_pct": 84.6
+  }
+ ],
+ "by_branch": {
+  "LOC": {
+   "n": 3,
+   "gpt4o": 1,
+   "gemma-4-12b-it": 1,
+   "gemma-4-e4b-it": 1
+  },
+  "NARROW": {
+   "n": 49,
+   "gpt4o": 41,
+   "gemma-4-12b-it": 8,
+   "gemma-4-e4b-it": 11
+  },
+  "other": {
+   "n": 27,
+   "gpt4o": 22,
+   "gemma-4-12b-it": 2,
+   "gemma-4-e4b-it": 1
+  }
+ },
+ "gpt4o_repeated_identical": 0.139
+}

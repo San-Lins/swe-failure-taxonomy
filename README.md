@@ -107,3 +107,6 @@ hygiene-check vs human HYG tag on 250 agent patches: precision 0.996, recall 1.0
 
 13.9% of GPT-4o runs re-issue the identical failed edit. The GPT-4o and Gemma settings differ in context, scaffold and model at once, so this is not a model comparison.
 
+## Raw experiment outputs
+
+Per-instance outputs of both Kaggle notebooks are in [`results/`](results/) (derived fields only).

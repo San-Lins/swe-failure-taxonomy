@@ -1,0 +1,16 @@
+{
+ "n": 250,
+ "tp": 234,
+ "fp": 1,
+ "fn": 0,
+ "tn": 15,
+ "precision": 0.996,
+ "recall": 1.0,
+ "accuracy": 0.996,
+ "kappa": 0.966,
+ "agent_score_mean": 64.4,
+ "agent_score_median": 72.5,
+ "gold_score_mean": 99.2,
+ "gold_score_100_share": 0.976,
+ "touches_tests_share": 0.328
+}
