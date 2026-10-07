@@ -1,6 +1,6 @@
 {
  "n": 250,
- "method": "mechanical v3 re-pass: 12 adjudicated finals + EVAL-BROKEN gate over all 250; 238 non-adjudicated items keep v2 primary labels; NOVER-INSUF demoted to secondary dimension VERIF-ABSENT",
+ "method": "mechanical v3 re-pass: 12 adjudicated finals + EVAL-BROKEN gate over all 250; 238 non-adjudicated items keep v2 primary labels; NOVER-INSUF demoted to secondary dimension VERIF-ABSENT | v3.1 (2026-10-07): tests_run_real re-derived from the trajectories with a strict criterion (project test runner invoked on non-agent-created files); 0/250 runs qualify, so VERIF-ABSENT now applies to all items. v3 had counted agent-written scripts such as test_*.py as real test runs.",
  "provenance_counts": {
   "gate_eval_broken": 34,
   "agreement_kept": 34,
@@ -202,11 +202,11 @@
    ]
   },
   "VERIF-ABSENT": {
-   "n": 131,
-   "pct": 52.4,
+   "n": 250,
+   "pct": 100.0,
    "ci95": [
-    46.2,
-    58.5
+    98.5,
+    100.0
    ]
   },
   "TOOL": {
@@ -239,6 +239,10 @@
    "CONFAB": {
     "n": 1,
     "pct": 2.4
+   },
+   "VERIF-ABSENT": {
+    "n": 42,
+    "pct": 100.0
    }
   },
   "LIT-TASK": {
@@ -257,8 +261,8 @@
     "pct": 100.0
    },
    "VERIF-ABSENT": {
-    "n": 10,
-    "pct": 76.9
+    "n": 13,
+    "pct": 100.0
    },
    "TOOL": {
     "n": 4,
@@ -275,8 +279,8 @@
     "pct": 100.0
    },
    "VERIF-ABSENT": {
-    "n": 21,
-    "pct": 77.8
+    "n": 27,
+    "pct": 100.0
    },
    "TOOL": {
     "n": 4,
@@ -289,8 +293,8 @@
     "pct": 91.8
    },
    "VERIF-ABSENT": {
-    "n": 81,
-    "pct": 60.4
+    "n": 134,
+    "pct": 100.0
    },
    "TOOL": {
     "n": 17,
@@ -303,8 +307,8 @@
     "pct": 87.1
    },
    "VERIF-ABSENT": {
-    "n": 16,
-    "pct": 51.6
+    "n": 31,
+    "pct": 100.0
    },
    "TOOL": {
     "n": 2,
@@ -323,12 +327,12 @@
   }
  },
  "verif_absent_among_evaluable": {
-  "n": 131,
+  "n": 208,
   "denom": 208,
-  "pct": 63.0,
+  "pct": 100.0,
   "ci95": [
-   56.2,
-   69.2
+   98.2,
+   100.0
   ]
  },
  "separability_evaluable": {
@@ -351,5 +355,6 @@
   "32 items have failed counts but no passed counts (partial test signal); kept in taxonomy, flagged via test_signal in full_labels_v3.json.",
   "VERIF-ABSENT is mechanical from the digest TESTS_RUN(real) line; selfmade-script-only verification still counts as absent.",
   "idx 103 (dvc-4125) bare LIT mapped to LIT-TASK by rationale reading, not independent annotation."
- ]
+ ],
+ "version": "v3.1"
 }

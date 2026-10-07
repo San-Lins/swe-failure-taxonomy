@@ -1,4 +1,4 @@
-# SWE Coding-Agent Failure Taxonomy — Annotations (v3)
+# SWE Coding-Agent Failure Taxonomy — Annotations (v3.1)
 
 Companion data for the writeup **"Near-Misses, Not Wrong Turns: A Stratified Failure Taxonomy for SWE Coding Agents."**
 
@@ -10,7 +10,10 @@ We annotate 250 failed-with-patch trajectories from [SWE-Gym/OpenHands-Sampled-T
 |---|---|
 | `data/full_labels_v3.json` | 250 item-level labels (one record per trajectory) |
 | `data/prevalence_stats_v3.json` | All prevalence statistics with Wilson 95% CIs, stratified tables, and limitations |
-| `rubric/rubric_v3_zh.md` | Full annotation rubric v3, including tie-break order and v2→v3 changelog (Chinese) |
+| `rubric/rubric_v3_zh.md` | Full annotation rubric v3, including tie-break order and v2→v3 changelog (Chinese; NOVER-INSUF was later demoted to the secondary tag VERIF-ABSENT) |
+| `rubric/rubric_v3_final_en.md` | Final v3 rubric as used in the paper and in the v3 agreement study (English) |
+| `data/agreement_v3/` | Blind second-annotator labels (68 items) and agreement summary |
+| `scripts/agreement/` | Sampling, digest-building, κ and strict-verification scripts (need the source trajectories) |
 
 ## Label record schema (`full_labels_v3.json`)
 
@@ -24,7 +27,7 @@ We annotate 250 failed-with-patch trajectories from [SWE-Gym/OpenHands-Sampled-T
 | `has_source_patch` | Whether the final patch contains a real source-code change |
 | `patch_files` | File basenames in the final patch |
 | `test_signal` | `passed` / `failed` counts from evaluation (`null` = absent) and `eval_interrupted` |
-| `tests_run_real` | Whether the agent ran the real test suite during the trajectory |
+| `tests_run_real` | Whether the agent ran the project's real test suite during the trajectory (v3.1: false for all 250) |
 
 ## Taxonomy (English summary)
 
@@ -42,7 +45,7 @@ We annotate 250 failed-with-patch trajectories from [SWE-Gym/OpenHands-Sampled-T
 
 **Secondary (multi-select)**
 - `HYG` — debug prints, repro scripts or unrelated files in the diff.
-- `VERIF-ABSENT` — real test suite never run before finishing (mechanical).
+- `VERIF-ABSENT` — real test suite never run before finishing (mechanical; v3.1: applies to all 250 items).
 - `TOOL` — malformed tool calls, unmatched edits, mistyped commands.
 - `CONFAB` — claims success while observations show errors.
 
@@ -58,10 +61,14 @@ We annotate 250 failed-with-patch trajectories from [SWE-Gym/OpenHands-Sampled-T
 | LIT-TASK | 2 | 0.8 [0.2, 2.9] |
 | RIGID-OSCIL | 1 | 0.4 [0.1, 2.2] |
 
+## Changelog
+
+**v3.1 (2026-10-07).** `tests_run_real` re-derived from the trajectories with a strict criterion (a project test runner such as pytest/unittest/tox invoked on files the agent did not create). No run in the sample qualifies; v3 had counted agent-written scripts such as `test_edge_cases.py` as real test runs. `VERIF-ABSENT` therefore now applies to all 250 items (208/208 evaluable, 100% [98.2, 100]), up from 131. Primary labels are unchanged. Added the v3 agreement study (`data/agreement_v3/`).
+
 ## Known limitations
 
 - 238/250 items keep rubric-v2 primary labels; v3's tightened NARROW-INCOMPLETE definition was not retro-applied (23 INCOMPLETE items exceed the ≤4-failure threshold).
-- Inter-annotator agreement κ = 0.68 was measured on rubric v2 (n = 50); not re-measured under v3.
+- Agreement: κ = 0.68 on rubric v2 (two annotators, n = 50). Under v3, a blind Claude annotator gives κ = 0.54 [0.37, 0.70] on 50 fresh items (branch level 0.66; evaluation gate 50/50). The second annotator is a model, not a human. See `data/agreement_v3/summary.json`.
 - Single model (GPT-4o) and scaffold (OpenHands); no generalization claim.
 - No FAIL_TO_PASS / PASS_TO_PASS metadata; the REGRESSIVE/INCOMPLETE boundary relies on failure counts.
 

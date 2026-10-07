@@ -1,0 +1,63 @@
+{
+ "annotator": "independent Claude instance (claude-opus-5-5), blind to existing labels; given only rubric_v3_final_en.md and per-case evidence digests",
+ "sample": "50 items, stratified proportionally to v3 primary-label shares, drawn (seed 2026) from the 204 items outside the v2 double-annotation set",
+ "primary": {
+  "n": 50,
+  "agree": 33,
+  "observed": 0.66,
+  "kappa": 0.544,
+  "kappa_ci95_bootstrap": [
+   0.37,
+   0.7
+  ]
+ },
+ "branch_level": {
+  "agree": 40,
+  "kappa": 0.662,
+  "note": "NARROW-* / LOC-* / other collapsed"
+ },
+ "eval_gate": {
+  "agree": 50,
+  "n": 50
+ },
+ "confusion": {
+  "LOC-REPAIR -> LOC-EXPLORE": 1,
+  "LOC-REPAIR -> LIT-TASK": 1,
+  "LOC-EXPLORE -> DEGEN": 2,
+  "LOC-REPAIR -> RIGID-PERSEV": 1,
+  "NARROW-INCOMPLETE -> RIGID-PERSEV": 1,
+  "NARROW-REGRESSIVE -> LOC-EXPLORE": 1,
+  "NARROW-INCOMPLETE -> NARROW-REGRESSIVE": 5,
+  "NARROW-REGRESSIVE -> NARROW-INCOMPLETE": 1,
+  "NARROW-INCOMPLETE -> LOC-EXPLORE": 2,
+  "NARROW-INCOMPLETE -> LOC-REPAIR": 1,
+  "NARROW-INCOMPLETE -> RIGID-OSCIL": 1
+ },
+ "secondary_kappa": {
+  "HYG": 0.79,
+  "TOOL": 0.47,
+  "CONFAB": 0.0,
+  "note": "VERIF-ABSENT is constant after the v3.1 correction"
+ },
+ "incomplete_review": {
+  "n": 23,
+  "criterion": "NARROW-INCOMPLETE with >4 failing tests",
+  "second_annotator": {
+   "NARROW-INCOMPLETE": 11,
+   "NARROW-REGRESSIVE": 9,
+   "CASC": 1,
+   "RIGID-OSCIL": 2
+  },
+  "counts_if_applied": {
+   "EVAL-BROKEN": 42,
+   "NARROW-INCOMPLETE": 122,
+   "LOC-REPAIR": 27,
+   "LOC-EXPLORE": 13,
+   "NARROW-REGRESSIVE": 40,
+   "RIGID-OSCIL": 3,
+   "LIT-TASK": 2,
+   "CASC": 1
+  },
+  "source_patch_near_miss_if_applied": "162/166"
+ }
+}

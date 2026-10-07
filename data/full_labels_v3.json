@@ -4,7 +4,8 @@
   "instance_id": "python__mypy-15139",
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "gate_eval_broken",
   "has_source_patch": true,
@@ -25,7 +26,8 @@
   "instance_id": "pydantic__pydantic-9134",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "agreement_kept",
   "has_source_patch": true,
@@ -40,7 +42,7 @@
    "failed": 2,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 1004,
@@ -67,7 +69,8 @@
   "instance_id": "pandas-dev__pandas-48651",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "agreement_kept",
   "has_source_patch": true,
@@ -81,7 +84,7 @@
    "failed": 2,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 3228,
@@ -109,7 +112,8 @@
   "instance_id": "modin-project__modin-7189",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "agreement_kept",
   "has_source_patch": true,
@@ -122,14 +126,15 @@
    "failed": 2,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 3388,
   "instance_id": "getmoto__moto-7270",
   "primary_v3": "NARROW-REGRESSIVE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "agreement_kept",
   "has_source_patch": true,
@@ -142,7 +147,7 @@
    "failed": 26,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 4930,
@@ -170,7 +175,8 @@
   "instance_id": "getmoto__moto-5880",
   "primary_v3": "NARROW-REGRESSIVE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "agreement_kept",
   "has_source_patch": true,
@@ -184,7 +190,7 @@
    "failed": 25,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 4609,
@@ -232,7 +238,8 @@
   "instance_id": "pandas-dev__pandas-49680",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "agreement_kept",
   "has_source_patch": true,
@@ -245,14 +252,15 @@
    "failed": 4,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 5875,
   "instance_id": "modin-project__modin-6951",
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "gate_eval_broken",
   "has_source_patch": false,
@@ -292,7 +300,8 @@
   "instance_id": "modin-project__modin-7142",
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "gate_eval_broken",
   "has_source_patch": true,
@@ -306,7 +315,7 @@
    "failed": null,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 3352,
@@ -335,7 +344,8 @@
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
    "HYG",
-   "TOOL"
+   "TOOL",
+   "VERIF-ABSENT"
   ],
   "provenance": "adjudicated_final",
   "has_source_patch": true,
@@ -378,7 +388,8 @@
   "instance_id": "pandas-dev__pandas-53681",
   "primary_v3": "LOC-REPAIR",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "agreement_kept",
   "has_source_patch": false,
@@ -390,14 +401,15 @@
    "failed": 2,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 180,
   "instance_id": "modin-project__modin-6780",
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "adjudicated_final",
   "has_source_patch": true,
@@ -417,7 +429,8 @@
   "instance_id": "python__mypy-11247",
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "adjudicated_final",
   "has_source_patch": true,
@@ -438,7 +451,8 @@
   "instance_id": "python__mypy-12417",
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "gate_eval_broken",
   "has_source_patch": true,
@@ -459,7 +473,8 @@
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
    "HYG",
-   "TOOL"
+   "TOOL",
+   "VERIF-ABSENT"
   ],
   "provenance": "adjudicated_final",
   "has_source_patch": true,
@@ -542,7 +557,8 @@
   "instance_id": "Project-MONAI__MONAI-2937",
   "primary_v3": "NARROW-REGRESSIVE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "agreement_kept",
   "has_source_patch": true,
@@ -555,7 +571,7 @@
    "failed": 14,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 3907,
@@ -583,7 +599,8 @@
   "instance_id": "Project-MONAI__MONAI-2492",
   "primary_v3": "NARROW-REGRESSIVE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "agreement_kept",
   "has_source_patch": true,
@@ -596,14 +613,15 @@
    "failed": 4,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 5068,
   "instance_id": "pandas-dev__pandas-50548",
   "primary_v3": "LOC-REPAIR",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "agreement_kept",
   "has_source_patch": false,
@@ -615,7 +633,7 @@
    "failed": 1,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 3295,
@@ -662,7 +680,9 @@
   "idx": 5518,
   "instance_id": "Project-MONAI__MONAI-6385",
   "primary_v3": "NARROW-INCOMPLETE",
-  "secondary_v3": [],
+  "secondary_v3": [
+   "VERIF-ABSENT"
+  ],
   "provenance": "agreement_kept",
   "has_source_patch": true,
   "patch_files": [
@@ -673,14 +693,15 @@
    "failed": 1,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 687,
   "instance_id": "conan-io__conan-13721",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "agreement_kept",
   "has_source_patch": true,
@@ -694,7 +715,7 @@
    "failed": 1,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 396,
@@ -702,7 +723,8 @@
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
    "HYG",
-   "TOOL"
+   "TOOL",
+   "VERIF-ABSENT"
   ],
   "provenance": "agreement_kept",
   "has_source_patch": true,
@@ -715,7 +737,7 @@
    "failed": 4,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 2561,
@@ -765,7 +787,8 @@
   "instance_id": "Project-MONAI__MONAI-3662",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "agreement_kept",
   "has_source_patch": true,
@@ -778,7 +801,7 @@
    "failed": 1,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 5461,
@@ -850,7 +873,8 @@
   "primary_v3": "NARROW-REGRESSIVE",
   "secondary_v3": [
    "HYG",
-   "TOOL"
+   "TOOL",
+   "VERIF-ABSENT"
   ],
   "provenance": "agreement_kept",
   "has_source_patch": true,
@@ -864,7 +888,7 @@
    "failed": 62,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 2490,
@@ -892,7 +916,8 @@
   "instance_id": "iterative__dvc-9647",
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "adjudicated_final",
   "has_source_patch": true,
@@ -916,7 +941,8 @@
   "instance_id": "iterative__dvc-3794",
   "primary_v3": "NARROW-REGRESSIVE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "agreement_kept",
   "has_source_patch": true,
@@ -934,14 +960,15 @@
    "failed": 8,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 5181,
   "instance_id": "pandas-dev__pandas-52236",
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "adjudicated_final",
   "has_source_patch": true,
@@ -961,7 +988,8 @@
   "instance_id": "pandas-dev__pandas-50876",
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "adjudicated_final",
   "has_source_patch": true,
@@ -981,7 +1009,8 @@
   "instance_id": "getmoto__moto-5134",
   "primary_v3": "NARROW-REGRESSIVE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "adjudicated_final",
   "has_source_patch": true,
@@ -995,14 +1024,15 @@
    "failed": 5,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 5781,
   "instance_id": "pandas-dev__pandas-48693",
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "adjudicated_final",
   "has_source_patch": true,
@@ -1015,7 +1045,7 @@
    "failed": null,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 5131,
@@ -1061,7 +1091,8 @@
   "instance_id": "iterative__dvc-6519",
   "primary_v3": "LOC-EXPLORE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": false,
@@ -1073,14 +1104,15 @@
    "failed": 1,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 3467,
   "instance_id": "pandas-dev__pandas-53672",
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "gate_eval_broken",
   "has_source_patch": true,
@@ -1100,7 +1132,8 @@
   "instance_id": "iterative__dvc-5005",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -1113,7 +1146,7 @@
    "failed": 2,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 3926,
@@ -1121,7 +1154,8 @@
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
    "HYG",
-   "TOOL"
+   "TOOL",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -1134,14 +1168,15 @@
    "failed": 1,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 5555,
   "instance_id": "Project-MONAI__MONAI-3135",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -1154,7 +1189,7 @@
    "failed": 1,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 4141,
@@ -1184,7 +1219,8 @@
   "instance_id": "dask__dask-7305",
   "primary_v3": "NARROW-REGRESSIVE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -1198,14 +1234,15 @@
    "failed": 4,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 4116,
   "instance_id": "conan-io__conan-10874",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -1219,7 +1256,7 @@
    "failed": 1,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 4756,
@@ -1227,7 +1264,8 @@
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
    "HYG",
-   "TOOL"
+   "TOOL",
+   "VERIF-ABSENT"
   ],
   "provenance": "gate_eval_broken",
   "has_source_patch": true,
@@ -1241,14 +1279,15 @@
    "failed": null,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 4134,
   "instance_id": "conan-io__conan-10213",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -1261,7 +1300,7 @@
    "failed": 1,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 1768,
@@ -1314,7 +1353,8 @@
   "instance_id": "getmoto__moto-5137",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -1327,7 +1367,7 @@
    "failed": 1,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 1635,
@@ -1375,7 +1415,8 @@
   "instance_id": "iterative__dvc-3794",
   "primary_v3": "NARROW-REGRESSIVE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -1388,14 +1429,15 @@
    "failed": 8,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 3468,
   "instance_id": "iterative__dvc-3532",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -1409,7 +1451,7 @@
    "failed": 2,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 3009,
@@ -1483,7 +1525,8 @@
   "primary_v3": "LOC-EXPLORE",
   "secondary_v3": [
    "CONFAB",
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": false,
@@ -1495,14 +1538,15 @@
    "failed": 3,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 4274,
   "instance_id": "python__mypy-12767",
   "primary_v3": "LOC-EXPLORE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": false,
@@ -1514,13 +1558,15 @@
    "failed": 1,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 1638,
   "instance_id": "python__mypy-11824",
   "primary_v3": "NARROW-INCOMPLETE",
-  "secondary_v3": [],
+  "secondary_v3": [
+   "VERIF-ABSENT"
+  ],
   "provenance": "v2_kept",
   "has_source_patch": true,
   "patch_files": [
@@ -1531,14 +1577,15 @@
    "failed": 3,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 3289,
   "instance_id": "getmoto__moto-5107",
   "primary_v3": "NARROW-REGRESSIVE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -1552,14 +1599,15 @@
    "failed": 22,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 5386,
   "instance_id": "pandas-dev__pandas-49249",
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "gate_eval_broken",
   "has_source_patch": true,
@@ -1572,14 +1620,15 @@
    "failed": null,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 4894,
   "instance_id": "pandas-dev__pandas-50748",
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "gate_eval_broken",
   "has_source_patch": true,
@@ -1620,7 +1669,8 @@
   "instance_id": "getmoto__moto-5841",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -1636,7 +1686,7 @@
    "failed": 1,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 667,
@@ -1705,7 +1755,8 @@
   "instance_id": "Project-MONAI__MONAI-4733",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -1718,7 +1769,7 @@
    "failed": 4,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 627,
@@ -1745,7 +1796,8 @@
   "instance_id": "iterative__dvc-2164",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -1764,7 +1816,7 @@
    "failed": 1,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 3730,
@@ -1856,7 +1908,8 @@
   "instance_id": "iterative__dvc-8251",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -1875,14 +1928,15 @@
    "failed": 1,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 4772,
   "instance_id": "dask__dask-6992",
   "primary_v3": "NARROW-REGRESSIVE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -1896,7 +1950,7 @@
    "failed": 77,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 4931,
@@ -2136,7 +2190,8 @@
   "instance_id": "getmoto__moto-6919",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -2149,7 +2204,7 @@
    "failed": 1,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 376,
@@ -2178,7 +2233,8 @@
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
    "HYG",
-   "TOOL"
+   "TOOL",
+   "VERIF-ABSENT"
   ],
   "provenance": "gate_eval_broken",
   "has_source_patch": true,
@@ -2191,14 +2247,15 @@
    "failed": null,
    "eval_interrupted": true
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 5321,
   "instance_id": "pandas-dev__pandas-53301",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -2211,14 +2268,15 @@
    "failed": 8,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 809,
   "instance_id": "python__mypy-11567",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -2232,14 +2290,15 @@
    "failed": 1,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 3979,
   "instance_id": "python__mypy-16061",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -2254,7 +2313,7 @@
    "failed": 1,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 4007,
@@ -2303,7 +2362,8 @@
   "instance_id": "python__mypy-10053",
   "primary_v3": "NARROW-REGRESSIVE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -2316,14 +2376,15 @@
    "failed": 56,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 3434,
   "instance_id": "dask__dask-8610",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -2337,7 +2398,7 @@
    "failed": 1,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 4986,
@@ -2345,7 +2406,8 @@
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
    "HYG",
-   "TOOL"
+   "TOOL",
+   "VERIF-ABSENT"
   ],
   "provenance": "gate_eval_broken",
   "has_source_patch": true,
@@ -2385,7 +2447,8 @@
   "instance_id": "Project-MONAI__MONAI-5117",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -2399,7 +2462,7 @@
    "failed": 3,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 133,
@@ -2474,7 +2537,8 @@
   "instance_id": "getmoto__moto-6864",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -2487,7 +2551,7 @@
    "failed": 2,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 5841,
@@ -2536,7 +2600,8 @@
   "instance_id": "dask__dask-6608",
   "primary_v3": "NARROW-REGRESSIVE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -2550,7 +2615,7 @@
    "failed": 8,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 1525,
@@ -2579,7 +2644,8 @@
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
    "HYG",
-   "TOOL"
+   "TOOL",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -2592,7 +2658,7 @@
    "failed": 1,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 4529,
@@ -2662,7 +2728,8 @@
   "instance_id": "dask__dask-10784",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -2675,7 +2742,7 @@
    "failed": 1,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 1137,
@@ -2702,7 +2769,8 @@
   "instance_id": "getmoto__moto-5486",
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "gate_eval_broken",
   "has_source_patch": true,
@@ -2715,14 +2783,15 @@
    "failed": null,
    "eval_interrupted": true
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 5119,
   "instance_id": "pandas-dev__pandas-52551",
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "gate_eval_broken",
   "has_source_patch": true,
@@ -2735,7 +2804,7 @@
    "failed": null,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 789,
@@ -2766,7 +2835,9 @@
   "idx": 1663,
   "instance_id": "iterative__dvc-4066",
   "primary_v3": "NARROW-INCOMPLETE",
-  "secondary_v3": [],
+  "secondary_v3": [
+   "VERIF-ABSENT"
+  ],
   "provenance": "v2_kept",
   "has_source_patch": true,
   "patch_files": [
@@ -2777,7 +2848,7 @@
    "failed": 3,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 5345,
@@ -2805,7 +2876,8 @@
   "instance_id": "pandas-dev__pandas-49228",
   "primary_v3": "NARROW-REGRESSIVE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -2818,7 +2890,7 @@
    "failed": 545,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 1651,
@@ -2887,7 +2959,9 @@
   "idx": 1757,
   "instance_id": "Project-MONAI__MONAI-3690",
   "primary_v3": "NARROW-INCOMPLETE",
-  "secondary_v3": [],
+  "secondary_v3": [
+   "VERIF-ABSENT"
+  ],
   "provenance": "v2_kept",
   "has_source_patch": true,
   "patch_files": [
@@ -2898,7 +2972,7 @@
    "failed": 2,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 4658,
@@ -2948,7 +3022,8 @@
   "instance_id": "getmoto__moto-7144",
   "primary_v3": "LOC-REPAIR",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": false,
@@ -2960,7 +3035,7 @@
    "failed": 1,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 3012,
@@ -3012,7 +3087,8 @@
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
    "HYG",
-   "TOOL"
+   "TOOL",
+   "VERIF-ABSENT"
   ],
   "provenance": "gate_eval_broken",
   "has_source_patch": true,
@@ -3118,7 +3194,8 @@
   "instance_id": "pandas-dev__pandas-53443",
   "primary_v3": "LOC-REPAIR",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": false,
@@ -3130,7 +3207,7 @@
    "failed": 6,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 4659,
@@ -3138,7 +3215,8 @@
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
    "HYG",
-   "TOOL"
+   "TOOL",
+   "VERIF-ABSENT"
   ],
   "provenance": "gate_eval_broken",
   "has_source_patch": true,
@@ -3221,7 +3299,8 @@
   "instance_id": "python__mypy-17293",
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "gate_eval_broken",
   "has_source_patch": true,
@@ -3241,7 +3320,8 @@
   "instance_id": "Project-MONAI__MONAI-6793",
   "primary_v3": "LOC-REPAIR",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": false,
@@ -3253,14 +3333,15 @@
    "failed": 4,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 2926,
   "instance_id": "pandas-dev__pandas-48774",
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "gate_eval_broken",
   "has_source_patch": false,
@@ -3280,7 +3361,8 @@
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
    "HYG",
-   "TOOL"
+   "TOOL",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -3293,7 +3375,7 @@
    "failed": 3,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 4035,
@@ -3344,7 +3426,8 @@
   "instance_id": "Project-MONAI__MONAI-7549",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -3358,14 +3441,15 @@
    "failed": 1,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 3885,
   "instance_id": "python__mypy-15045",
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "gate_eval_broken",
   "has_source_patch": true,
@@ -3386,7 +3470,8 @@
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
    "HYG",
-   "TOOL"
+   "TOOL",
+   "VERIF-ABSENT"
   ],
   "provenance": "gate_eval_broken",
   "has_source_patch": true,
@@ -3407,7 +3492,8 @@
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
    "HYG",
-   "TOOL"
+   "TOOL",
+   "VERIF-ABSENT"
   ],
   "provenance": "gate_eval_broken",
   "has_source_patch": true,
@@ -3427,7 +3513,8 @@
   "instance_id": "iterative__dvc-1980",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -3440,7 +3527,7 @@
    "failed": 1,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 665,
@@ -3468,7 +3555,8 @@
   "instance_id": "conan-io__conan-11594",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -3487,14 +3575,15 @@
    "failed": 1,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 2981,
   "instance_id": "Project-MONAI__MONAI-2837",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -3507,14 +3596,15 @@
    "failed": 3,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 4337,
   "instance_id": "iterative__dvc-8251",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -3527,14 +3617,15 @@
    "failed": 11,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 2774,
   "instance_id": "pandas-dev__pandas-47434",
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "gate_eval_broken",
   "has_source_patch": true,
@@ -3556,7 +3647,8 @@
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
    "HYG",
-   "TOOL"
+   "TOOL",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -3569,7 +3661,7 @@
    "failed": 1,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 4611,
@@ -3599,7 +3691,8 @@
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
    "HYG",
-   "TOOL"
+   "TOOL",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -3612,14 +3705,15 @@
    "failed": 3,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 3978,
   "instance_id": "getmoto__moto-6609",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -3632,7 +3726,7 @@
    "failed": 3,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 1103,
@@ -3745,7 +3839,8 @@
   "instance_id": "pydantic__pydantic-4911",
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "gate_eval_broken",
   "has_source_patch": true,
@@ -3811,7 +3906,8 @@
   "instance_id": "conan-io__conan-12762",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -3824,14 +3920,15 @@
    "failed": 1,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 5597,
   "instance_id": "facebookresearch__hydra-614",
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "gate_eval_broken",
   "has_source_patch": true,
@@ -3849,7 +3946,7 @@
    "failed": null,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 601,
@@ -3896,7 +3993,9 @@
   "idx": 1629,
   "instance_id": "python__mypy-9629",
   "primary_v3": "NARROW-INCOMPLETE",
-  "secondary_v3": [],
+  "secondary_v3": [
+   "VERIF-ABSENT"
+  ],
   "provenance": "v2_kept",
   "has_source_patch": true,
   "patch_files": [
@@ -3907,7 +4006,7 @@
    "failed": 1,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 5441,
@@ -4000,7 +4099,8 @@
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
    "HYG",
-   "TOOL"
+   "TOOL",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -4013,7 +4113,7 @@
    "failed": 1,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 124,
@@ -4066,7 +4166,8 @@
   "instance_id": "getmoto__moto-6726",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -4081,7 +4182,7 @@
    "failed": 3,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 669,
@@ -4150,7 +4251,8 @@
   "instance_id": "getmoto__moto-5438",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -4164,14 +4266,15 @@
    "failed": 3,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 604,
   "instance_id": "python__mypy-11567",
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "gate_eval_broken",
   "has_source_patch": true,
@@ -4184,7 +4287,7 @@
    "failed": null,
    "eval_interrupted": true
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 1546,
@@ -4232,7 +4335,8 @@
   "instance_id": "conan-io__conan-14760",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -4245,7 +4349,7 @@
    "failed": 2,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 4397,
@@ -4276,7 +4380,8 @@
   "instance_id": "iterative__dvc-3794",
   "primary_v3": "NARROW-REGRESSIVE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -4291,7 +4396,7 @@
    "failed": 8,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 3871,
@@ -4319,7 +4424,8 @@
   "instance_id": "Project-MONAI__MONAI-4174",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -4333,7 +4439,7 @@
    "failed": 23,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 4373,
@@ -4361,7 +4467,8 @@
   "instance_id": "pandas-dev__pandas-47774",
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "gate_eval_broken",
   "has_source_patch": true,
@@ -4468,7 +4575,8 @@
   "instance_id": "Project-MONAI__MONAI-3440",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -4482,7 +4590,7 @@
    "failed": 2,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 3927,
@@ -4576,7 +4684,8 @@
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
    "HYG",
-   "TOOL"
+   "TOOL",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -4590,7 +4699,7 @@
    "failed": 2,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 370,
@@ -4703,7 +4812,8 @@
   "instance_id": "Project-MONAI__MONAI-1079",
   "primary_v3": "LOC-REPAIR",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": false,
@@ -4715,7 +4825,7 @@
    "failed": 77,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 1517,
@@ -4743,7 +4853,8 @@
   "instance_id": "iterative__dvc-1712",
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -4757,14 +4868,15 @@
    "failed": 1,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 4137,
   "instance_id": "conan-io__conan-13788",
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "gate_eval_broken",
   "has_source_patch": true,
@@ -4816,7 +4928,8 @@
   "instance_id": "dask__dask-9148",
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "gate_eval_broken",
   "has_source_patch": true,
@@ -4829,7 +4942,7 @@
    "failed": null,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 5610,
@@ -4879,7 +4992,8 @@
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
    "CONFAB",
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "gate_eval_broken",
   "has_source_patch": false,
@@ -4892,14 +5006,15 @@
    "failed": null,
    "eval_interrupted": true
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 3283,
   "instance_id": "getmoto__moto-6057",
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "gate_eval_broken",
   "has_source_patch": true,
@@ -4920,7 +5035,8 @@
   "instance_id": "python__mypy-16503",
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "gate_eval_broken",
   "has_source_patch": true,
@@ -4941,7 +5057,8 @@
   "instance_id": "getmoto__moto-5482",
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "gate_eval_broken",
   "has_source_patch": true,
@@ -5005,7 +5122,8 @@
   "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
    "HYG",
-   "TOOL"
+   "TOOL",
+   "VERIF-ABSENT"
   ],
   "provenance": "v2_kept",
   "has_source_patch": true,
@@ -5018,14 +5136,15 @@
    "failed": 5,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 5797,
   "instance_id": "pandas-dev__pandas-57169",
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "gate_eval_broken",
   "has_source_patch": true,
@@ -5065,7 +5184,9 @@
   "idx": 1748,
   "instance_id": "Project-MONAI__MONAI-4109",
   "primary_v3": "NARROW-INCOMPLETE",
-  "secondary_v3": [],
+  "secondary_v3": [
+   "VERIF-ABSENT"
+  ],
   "provenance": "v2_kept",
   "has_source_patch": true,
   "patch_files": [
@@ -5076,14 +5197,15 @@
    "failed": 1,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 2974,
   "instance_id": "pandas-dev__pandas-49333",
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "gate_eval_broken",
   "has_source_patch": true,
@@ -5102,7 +5224,9 @@
   "idx": 1622,
   "instance_id": "python__mypy-9625",
   "primary_v3": "NARROW-INCOMPLETE",
-  "secondary_v3": [],
+  "secondary_v3": [
+   "VERIF-ABSENT"
+  ],
   "provenance": "v2_kept",
   "has_source_patch": true,
   "patch_files": [
@@ -5114,14 +5238,15 @@
    "failed": 1,
    "eval_interrupted": false
   },
-  "tests_run_real": true
+  "tests_run_real": false
  },
  {
   "idx": 1049,
   "instance_id": "getmoto__moto-5752",
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
-   "HYG"
+   "HYG",
+   "VERIF-ABSENT"
   ],
   "provenance": "gate_eval_broken",
   "has_source_patch": true,
@@ -5165,7 +5290,8 @@
   "primary_v3": "EVAL-BROKEN",
   "secondary_v3": [
    "HYG",
-   "TOOL"
+   "TOOL",
+   "VERIF-ABSENT"
   ],
   "provenance": "gate_eval_broken",
   "has_source_patch": true,

@@ -1,0 +1,983 @@
+[
+ {
+  "idx": 103,
+  "instance_id": "iterative__dvc-4125",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "LIT-TASK",
+  "second_primary": "LIT-TASK",
+  "second_secondary": [
+   "CONFAB",
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "high",
+  "second_reason": "Agent just created a .dvcignore with issue's patterns instead of fixing dvc ignore regex; no library edit."
+ },
+ {
+  "idx": 124,
+  "instance_id": "python__mypy-11707",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-INCOMPLETE",
+  "second_secondary": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "medium",
+  "second_reason": "semanal.py reexport logic edited; single target test testReExportChildStubs3 still fails."
+ },
+ {
+  "idx": 601,
+  "instance_id": "python__mypy-10424",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "LOC-REPAIR",
+  "second_primary": "LOC-EXPLORE",
+  "second_secondary": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "high",
+  "second_reason": "Paged through checkexpr.py, never viewed checker.py narrowing logic; patch only a reproduction script."
+ },
+ {
+  "idx": 604,
+  "instance_id": "python__mypy-11567",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "EVAL-BROKEN",
+  "second_primary": "EVAL-BROKEN",
+  "second_secondary": [
+   "HYG",
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "high",
+  "second_reason": "Eval interrupted, counts None; collection errors from misplaced import causing IndentationError in astdiff.py."
+ },
+ {
+  "idx": 819,
+  "instance_id": "conan-io__conan-11594",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "LOC-EXPLORE",
+  "second_secondary": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "medium",
+  "second_reason": "Edited legacy conans/client/build/cmake.py; never viewed new conan/tools/cmake CMake; target Ninja Multi-Config test still fails."
+ },
+ {
+  "idx": 908,
+  "instance_id": "conan-io__conan-15422",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-INCOMPLETE",
+  "second_secondary": [
+   "HYG",
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "medium",
+  "second_reason": "Hardcoded jobs=16 in build preset instead of using configured njobs; only target test_presets_njobs fails."
+ },
+ {
+  "idx": 1103,
+  "instance_id": "iterative__dvc-4961",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-INCOMPLETE",
+  "second_secondary": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "high",
+  "second_reason": "Regex edit in utils TARGET_REGEX; 4 target parse_target dict-name tests still fail, others pass."
+ },
+ {
+  "idx": 1670,
+  "instance_id": "getmoto__moto-7495",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-INCOMPLETE",
+  "second_secondary": [
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "high",
+  "second_reason": "Edited instance template/model in right area; single target test test_instance_start_and_stop still fails, 94 pass."
+ },
+ {
+  "idx": 1748,
+  "instance_id": "Project-MONAI__MONAI-4109",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-INCOMPLETE",
+  "second_secondary": [
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "high",
+  "second_reason": "Made helper scriptable but public decorated pixelshuffle still not scriptable; only target script tests fail."
+ },
+ {
+  "idx": 1768,
+  "instance_id": "pydantic__pydantic-8977",
+  "in_kappa_sample": false,
+  "in_incomplete_review": true,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-REGRESSIVE",
+  "second_secondary": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "medium",
+  "second_reason": "Broad strict-mode schema wrapping in shared set/sequence logic breaks 7 previously passing schema/deque/config tests."
+ },
+ {
+  "idx": 1812,
+  "instance_id": "Project-MONAI__MONAI-6775",
+  "in_kappa_sample": false,
+  "in_incomplete_review": true,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-INCOMPLETE",
+  "second_secondary": [
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "low",
+  "second_reason": "Right spot in GeneralizedDiceLoss, but reduction dims wrong; failing shape tests likely target values, plus test_script regression from dim=None."
+ },
+ {
+  "idx": 1816,
+  "instance_id": "dask__dask-7305",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "NARROW-REGRESSIVE",
+  "second_primary": "NARROW-REGRESSIVE",
+  "second_secondary": [
+   "CONFAB",
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "medium",
+  "second_reason": "Broad rewrite of process_val_weights (vals cast to dtype) breaks categorical/timestamp/timezone set_index tests with TypeErrors; repro output never changed."
+ },
+ {
+  "idx": 2747,
+  "instance_id": "pandas-dev__pandas-57060",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "LOC-REPAIR",
+  "second_primary": "RIGID-PERSEV",
+  "second_secondary": [
+   "HYG",
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "medium",
+  "second_reason": "Edit lost after runtime reset; repeated identical str_replace on missing old_str 7 times; final patch lacks source change."
+ },
+ {
+  "idx": 2774,
+  "instance_id": "pandas-dev__pandas-47434",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "EVAL-BROKEN",
+  "second_primary": "EVAL-BROKEN",
+  "second_secondary": [
+   "HYG",
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "medium",
+  "second_reason": "passed/failed both None; conftest import fails from IndentationError left by repeated mis-indented str_replace edits."
+ },
+ {
+  "idx": 2809,
+  "instance_id": "Project-MONAI__MONAI-4174",
+  "in_kappa_sample": false,
+  "in_incomplete_review": true,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-INCOMPLETE",
+  "second_secondary": [
+   "CONFAB",
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "medium",
+  "second_reason": "Added reduction only to DiceMetric; failures are other metrics' target aggregate tests, in-place bug unfixed."
+ },
+ {
+  "idx": 2926,
+  "instance_id": "pandas-dev__pandas-48774",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "EVAL-BROKEN",
+  "second_primary": "EVAL-BROKEN",
+  "second_secondary": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "high",
+  "second_reason": "Eval interrupted by collection error, no counts; patch is only a reproduction script anyway."
+ },
+ {
+  "idx": 2943,
+  "instance_id": "Project-MONAI__MONAI-1832",
+  "in_kappa_sample": false,
+  "in_incomplete_review": true,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-INCOMPLETE",
+  "second_secondary": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "low",
+  "second_reason": "Shuffle added to base Dataset, not SmartCacheDataset shuffle/seed API; all failures in target SmartCache test files."
+ },
+ {
+  "idx": 2962,
+  "instance_id": "Project-MONAI__MONAI-5526",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "RIGID-PERSEV",
+  "second_secondary": [
+   "HYG",
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "medium",
+  "second_reason": "Repeated identical non-unique str_replace attempts to add new_key param (>10 times); signature never updated, so patch raises NameError in target tests."
+ },
+ {
+  "idx": 2973,
+  "instance_id": "Project-MONAI__MONAI-5183",
+  "in_kappa_sample": false,
+  "in_incomplete_review": true,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "RIGID-OSCIL",
+  "second_secondary": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "medium",
+  "second_reason": "Alternated h_dist vs h_dist.flatten()/slice edits ~20 times with identical error, never converged; all 12 target tests fail."
+ },
+ {
+  "idx": 3052,
+  "instance_id": "pandas-dev__pandas-52058",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "NARROW-REGRESSIVE",
+  "second_primary": "NARROW-REGRESSIVE",
+  "second_secondary": [
+   "CONFAB",
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "medium",
+  "second_reason": "Added to_pydatetime/to_pandas and 'import pandas as pd' into arrow array.py; thousands of arrow/sql tests fail."
+ },
+ {
+  "idx": 3289,
+  "instance_id": "getmoto__moto-5107",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "NARROW-REGRESSIVE",
+  "second_primary": "NARROW-REGRESSIVE",
+  "second_secondary": [
+   "CTX",
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "high",
+  "second_reason": "Inserted template using undefined 'database' into Cluster XML, causing jinja2 errors in 21 previously passing cluster tests."
+ },
+ {
+  "idx": 3374,
+  "instance_id": "conan-io__conan-12307",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "NARROW-REGRESSIVE",
+  "second_primary": "LOC-EXPLORE",
+  "second_secondary": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "low",
+  "second_reason": "Edited legacy pkg_config generator; never viewed PkgConfigDeps/compiler-flag code; 9 target framework-flag tests fail."
+ },
+ {
+  "idx": 3375,
+  "instance_id": "getmoto__moto-7336",
+  "in_kappa_sample": false,
+  "in_incomplete_review": true,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-INCOMPLETE",
+  "second_secondary": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "low",
+  "second_reason": "Right spot edited (default ARN partition) but failures mostly cn-partition target tests; some default-credential cases may be regressions."
+ },
+ {
+  "idx": 3392,
+  "instance_id": "getmoto__moto-6816",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-INCOMPLETE",
+  "second_secondary": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "high",
+  "second_reason": "Edited dynamo_type.py to_regular_json for binary; 160 pass, only target test_projection_expression_with_binary_attr fails."
+ },
+ {
+  "idx": 3396,
+  "instance_id": "iterative__dvc-6519",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "LOC-EXPLORE",
+  "second_primary": "DEGEN",
+  "second_secondary": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "medium",
+  "second_reason": "Believed repo empty, stopped exploring, repeated plan text; only unrelated paramiko script, no source change."
+ },
+ {
+  "idx": 3420,
+  "instance_id": "getmoto__moto-7144",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "LOC-REPAIR",
+  "second_primary": "LOC-REPAIR",
+  "second_secondary": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "high",
+  "second_reason": "Read acm/models.py fully, concluded no bug; patch only reproduction script; target test fails."
+ },
+ {
+  "idx": 3443,
+  "instance_id": "python__mypy-14988",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-INCOMPLETE",
+  "second_secondary": [
+   "CTX",
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "medium",
+  "second_reason": "T_OBJECT_EX->T_OBJECT edit in emitclass is ineffective-direction; both target tests fail; long aimless browsing until budget ran out."
+ },
+ {
+  "idx": 3567,
+  "instance_id": "iterative__dvc-10386",
+  "in_kappa_sample": false,
+  "in_incomplete_review": true,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-INCOMPLETE",
+  "second_secondary": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "low",
+  "second_reason": "get_path subrepo edit in right file but wrong mechanism; 7 failures mostly subrepo target tests, a few possibly regressions."
+ },
+ {
+  "idx": 3717,
+  "instance_id": "getmoto__moto-5841",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-INCOMPLETE",
+  "second_secondary": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "high",
+  "second_reason": "Source edits in security_groups backend/response; 44 pass, only the target test_create_and_describe_security_grp_rule fails."
+ },
+ {
+  "idx": 3791,
+  "instance_id": "getmoto__moto-7085",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-INCOMPLETE",
+  "second_secondary": [
+   "CONFAB",
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "medium",
+  "second_reason": "Changed scanned_count in table.py (query path) not fixing scan; one target test fails; repro still showed 10 yet claimed fixed."
+ },
+ {
+  "idx": 3805,
+  "instance_id": "getmoto__moto-5212",
+  "in_kappa_sample": true,
+  "in_incomplete_review": true,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-REGRESSIVE",
+  "second_secondary": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "medium",
+  "second_reason": "Hardcoded is_default=False breaks backend's default VPC; default-VPC tests regress, create_default_vpc never implemented; 5 failures."
+ },
+ {
+  "idx": 3885,
+  "instance_id": "python__mypy-15045",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "EVAL-BROKEN",
+  "second_primary": "EVAL-BROKEN",
+  "second_secondary": [
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "high",
+  "second_reason": "passed/failed None; repeated str_replace on ') -> bool:' piled duplicate blocks, IndentationError in subtypes.py breaks collection."
+ },
+ {
+  "idx": 3932,
+  "instance_id": "getmoto__moto-5438",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-REGRESSIVE",
+  "second_secondary": [
+   "HYG",
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "medium",
+  "second_reason": "head_object now returns dict and complete_multipart rewritten; target fails plus two previously passing multipart tests break."
+ },
+ {
+  "idx": 3943,
+  "instance_id": "python__mypy-17276",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-INCOMPLETE",
+  "second_secondary": [
+   "HYG",
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "medium",
+  "second_reason": "Final-override check added in checker.py but not reached for untyped defs; two target tests fail."
+ },
+ {
+  "idx": 3979,
+  "instance_id": "python__mypy-16061",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-INCOMPLETE",
+  "second_secondary": [
+   "CONFAB",
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "high",
+  "second_reason": "Added error code and message but code not propagated via fail(); single target test still shows [misc]."
+ },
+ {
+  "idx": 4027,
+  "instance_id": "getmoto__moto-4846",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-INCOMPLETE",
+  "second_secondary": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "high",
+  "second_reason": "policy.py raises new exception (likely missing import/wrong type); only target test_remove_unknown_permission_throws_error fails."
+ },
+ {
+  "idx": 4035,
+  "instance_id": "python__mypy-14739",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "LOC-EXPLORE",
+  "second_primary": "DEGEN",
+  "second_secondary": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "high",
+  "second_reason": "Agent stopped using tools, repeated conceptual text; patch is only a reproduction script, no source change."
+ },
+ {
+  "idx": 4043,
+  "instance_id": "getmoto__moto-5011",
+  "in_kappa_sample": true,
+  "in_incomplete_review": true,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-REGRESSIVE",
+  "second_secondary": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "medium",
+  "second_reason": "Inserted classes mid-existing classes, replacing backend and deleting policy init lines; 14 failures incl. previously passing scalable target/policy tests."
+ },
+ {
+  "idx": 4134,
+  "instance_id": "conan-io__conan-10213",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "LOC-EXPLORE",
+  "second_secondary": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "medium",
+  "second_reason": "Never viewed conan/tools/cmake toolchain; added unused dynamic-import helpers to legacy generators/cmake.py; no effective change."
+ },
+ {
+  "idx": 4137,
+  "instance_id": "conan-io__conan-13788",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "EVAL-BROKEN",
+  "second_primary": "EVAL-BROKEN",
+  "second_secondary": [
+   "HYG",
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "high",
+  "second_reason": "Counts None; conftest import fails on IndentationError in graph.py after repeated misindented edits."
+ },
+ {
+  "idx": 4196,
+  "instance_id": "iterative__dvc-5118",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-INCOMPLETE",
+  "second_secondary": [
+   "CONFAB",
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "high",
+  "second_reason": "Added guards raising AttributeError instead of fixing; only target test_get_dir fails; success claimed via mocked script."
+ },
+ {
+  "idx": 4246,
+  "instance_id": "iterative__dvc-3559",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-INCOMPLETE",
+  "second_secondary": [
+   "HYG",
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "medium",
+  "second_reason": "Progress bar wrapped in gc; 3 target tests expecting cache_checksums API fail; long indentation-fix struggle."
+ },
+ {
+  "idx": 4274,
+  "instance_id": "python__mypy-12767",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "LOC-EXPLORE",
+  "second_primary": "LOC-EXPLORE",
+  "second_secondary": [
+   "CONFAB",
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "high",
+  "second_reason": "Never viewed mypy semanal/functools plugin code; patch is only a reworked user snippet; claimed fix."
+ },
+ {
+  "idx": 4337,
+  "instance_id": "iterative__dvc-8251",
+  "in_kappa_sample": false,
+  "in_incomplete_review": true,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-REGRESSIVE",
+  "second_secondary": [
+   "HYG",
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "high",
+  "second_reason": "Loader edit references nonexistent Stage.PARAM_LABELS, causing AttributeError in 11 previously passing dvcfile tests; most steps spent fixing mock script."
+ },
+ {
+  "idx": 4368,
+  "instance_id": "dask__dask-8801",
+  "in_kappa_sample": false,
+  "in_incomplete_review": true,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-REGRESSIVE",
+  "second_secondary": [
+   "CONFAB",
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "low",
+  "second_reason": "Raising TypeError on any string in shared update() broke test_collect_env_none and others; 5 failures."
+ },
+ {
+  "idx": 4413,
+  "instance_id": "dask__dask-9148",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "EVAL-BROKEN",
+  "second_primary": "EVAL-BROKEN",
+  "second_secondary": [
+   "HYG",
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "high",
+  "second_reason": "passed/failed both None; conftest import fails on SyntaxError from cascading indentation-broken base.py edits."
+ },
+ {
+  "idx": 4529,
+  "instance_id": "iterative__dvc-4049",
+  "in_kappa_sample": false,
+  "in_incomplete_review": true,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-INCOMPLETE",
+  "second_secondary": [
+   "HYG",
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "low",
+  "second_reason": "Right guard added in output/local.py; target get_url_nonexistent still fails; import_url failures look environmental (networkx gcd ImportError), not regressions."
+ },
+ {
+  "idx": 4553,
+  "instance_id": "iterative__dvc-8152",
+  "in_kappa_sample": true,
+  "in_incomplete_review": true,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-REGRESSIVE",
+  "second_secondary": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "medium",
+  "second_reason": "Changed path handling in _read_metrics; 19 of 23 show tests fail, including basic test_show_simple previously passing."
+ },
+ {
+  "idx": 4658,
+  "instance_id": "iterative__dvc-8177",
+  "in_kappa_sample": false,
+  "in_incomplete_review": true,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "CASC",
+  "second_secondary": [
+   "HYG",
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "high",
+  "second_reason": "try/except edit broke indentation; repeated failed str_replace piled on; final show.py syntactically corrupted, 30 failures."
+ },
+ {
+  "idx": 4749,
+  "instance_id": "pydantic__pydantic-9135",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "EVAL-BROKEN",
+  "second_primary": "EVAL-BROKEN",
+  "second_secondary": [
+   "HYG",
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "medium",
+  "second_reason": "No counts; collection IndentationError from cascading broken edits in json_schema.py (CASC underlying)."
+ },
+ {
+  "idx": 4803,
+  "instance_id": "dask__dask-10784",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "LOC-REPAIR",
+  "second_secondary": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "medium",
+  "second_reason": "Viewed core.py set_index repeatedly but only deleted docstring lines; no deprecation warning logic added."
+ },
+ {
+  "idx": 4811,
+  "instance_id": "dask__dask-8261",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "NARROW-REGRESSIVE",
+  "second_primary": "NARROW-INCOMPLETE",
+  "second_secondary": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "low",
+  "second_reason": "Symptom-suppression edits in bind/toposort; store target tests still fail, other failures appear environment-related, not caused by patch."
+ },
+ {
+  "idx": 4836,
+  "instance_id": "dask__dask-6608",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "NARROW-REGRESSIVE",
+  "second_primary": "NARROW-REGRESSIVE",
+  "second_secondary": [
+   "HYG",
+   "LIT-TASK",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "medium",
+  "second_reason": "New method inserted mid-__setitem__ orphans divisions line; apply/head/realign tests regress plus setitem bool targets; 8 failures."
+ },
+ {
+  "idx": 4875,
+  "instance_id": "dask__dask-9342",
+  "in_kappa_sample": false,
+  "in_incomplete_review": true,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-INCOMPLETE",
+  "second_secondary": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "low",
+  "second_reason": "Symptom patch in _concatenate2; 18 failures all in test_sparse target tests (var/numel), 408 others pass."
+ },
+ {
+  "idx": 4901,
+  "instance_id": "pandas-dev__pandas-56767",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-INCOMPLETE",
+  "second_secondary": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "high",
+  "second_reason": "Source edits in masked.py/boolean.py; 88 pass, only target test_round_ea_boolean fails (round raises for decimals)."
+ },
+ {
+  "idx": 4931,
+  "instance_id": "pandas-dev__pandas-53458",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-INCOMPLETE",
+  "second_secondary": [
+   "HYG",
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "high",
+  "second_reason": "Arrow dtype bypasses in _AsOfMerge; KeyError persists; 3 target extension_dtype tests fail; repeated non-unique str_replace."
+ },
+ {
+  "idx": 4986,
+  "instance_id": "pandas-dev__pandas-53288",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "EVAL-BROKEN",
+  "second_primary": "EVAL-BROKEN",
+  "second_secondary": [
+   "HYG",
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "high",
+  "second_reason": "passed/failed both None: range.py corrupted (SyntaxError) by cascading failed str_replace edits, conftest import fails."
+ },
+ {
+  "idx": 5172,
+  "instance_id": "pandas-dev__pandas-54109",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "LOC-REPAIR",
+  "second_primary": "LOC-REPAIR",
+  "second_secondary": [
+   "CONFAB",
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "medium",
+  "second_reason": "series.py idxmax viewed several times; final patch only contains reproduce script, no library edit survived; agent claims fix despite failing runs."
+ },
+ {
+  "idx": 5210,
+  "instance_id": "pandas-dev__pandas-48555",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-INCOMPLETE",
+  "second_secondary": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "high",
+  "second_reason": "Edited DatetimeArray.astype unitless branch; 155 pass, only target test_astype_unitless_dt64_deprecated fails."
+ },
+ {
+  "idx": 5321,
+  "instance_id": "pandas-dev__pandas-53301",
+  "in_kappa_sample": false,
+  "in_incomplete_review": true,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-INCOMPLETE",
+  "second_secondary": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "high",
+  "second_reason": "Effective edit in datetimes.py; all 8 failures are parametrizations of target test_to_datetime_arrow; 934 others pass."
+ },
+ {
+  "idx": 5345,
+  "instance_id": "pandas-dev__pandas-49212",
+  "in_kappa_sample": true,
+  "in_incomplete_review": true,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "RIGID-OSCIL",
+  "second_secondary": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "medium",
+  "second_reason": "Repeatedly applied and undid same concat/to_string edit without new info; left list-based concat breaking existing concat tests (10 failures)."
+ },
+ {
+  "idx": 5539,
+  "instance_id": "Project-MONAI__MONAI-2530",
+  "in_kappa_sample": false,
+  "in_incomplete_review": true,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-INCOMPLETE",
+  "second_secondary": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "low",
+  "second_reason": "Edited interaction.py with mock-driven hacks; 5 failures are deepgrow interaction/transform target tests."
+ },
+ {
+  "idx": 5599,
+  "instance_id": "Project-MONAI__MONAI-5468",
+  "in_kappa_sample": false,
+  "in_incomplete_review": true,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-REGRESSIVE",
+  "second_secondary": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "medium",
+  "second_reason": "keepdim fix plus removal of smooth_nr/smooth_dr changes loss values; 9 of 12 shape tests plus script_save fail."
+ },
+ {
+  "idx": 5624,
+  "instance_id": "pandas-dev__pandas-57297",
+  "in_kappa_sample": true,
+  "in_incomplete_review": true,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-REGRESSIVE",
+  "second_secondary": [
+   "CONFAB",
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "high",
+  "second_reason": "Restricting ignore_index to axis==1 broke six axis-0 ignore_index tests; target test also fails."
+ },
+ {
+  "idx": 5721,
+  "instance_id": "Project-MONAI__MONAI-6412",
+  "in_kappa_sample": false,
+  "in_incomplete_review": true,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-REGRESSIVE",
+  "second_secondary": [
+   "HYG",
+   "TOOL",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "medium",
+  "second_reason": "n_class edit leaves self.n_class None, TypeError breaks 19 dice tests incl. previously passing value/nans tests."
+ },
+ {
+  "idx": 5926,
+  "instance_id": "pandas-dev__pandas-56167",
+  "in_kappa_sample": false,
+  "in_incomplete_review": true,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-INCOMPLETE",
+  "second_secondary": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "medium",
+  "second_reason": "Right accessor edited for list selection; 5 failures all target field_expanded/invalid-index tests (bytes, tuple types)."
+ },
+ {
+  "idx": 5946,
+  "instance_id": "Project-MONAI__MONAI-1079",
+  "in_kappa_sample": true,
+  "in_incomplete_review": false,
+  "label_v3": "LOC-REPAIR",
+  "second_primary": "LIT-TASK",
+  "second_secondary": [
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "low",
+  "second_reason": "Treated issue as a literal question, concluded focal loss already works for segmentation; no source edit, only demo script."
+ },
+ {
+  "idx": 5978,
+  "instance_id": "Project-MONAI__MONAI-2513",
+  "in_kappa_sample": false,
+  "in_incomplete_review": true,
+  "label_v3": "NARROW-INCOMPLETE",
+  "second_primary": "NARROW-INCOMPLETE",
+  "second_secondary": [
+   "CONFAB",
+   "HYG",
+   "VERIF-ABSENT"
+  ],
+  "second_confidence": "low",
+  "second_reason": "Single-channel logsigmoid edit only; updated focal-loss target tests (sigmoid semantics) still fail; agent claims fix despite loss 0.0."
+ }
+]
