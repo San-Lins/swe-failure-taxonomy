@@ -513,13 +513,13 @@
  {
   "idx": 1555,
   "instance_id": "python__mypy-15139",
-  "primary_v3": "NARROW-INCOMPLETE",
+  "primary_v3": "LOC-REPAIR",
   "secondary_v3": [
    "HYG",
    "VERIF-ABSENT"
   ],
-  "provenance": "agreement_kept",
-  "has_source_patch": true,
+  "provenance": "v3.1_relabel_blind",
+  "has_source_patch": false,
   "patch_files": [
    "messages.py",
    "reproduce_error.py"
@@ -1456,13 +1456,13 @@
  {
   "idx": 3009,
   "instance_id": "Project-MONAI__MONAI-5656",
-  "primary_v3": "LOC-REPAIR",
+  "primary_v3": "NARROW-INCOMPLETE",
   "secondary_v3": [
    "HYG",
    "VERIF-ABSENT"
   ],
-  "provenance": "v2_kept",
-  "has_source_patch": false,
+  "provenance": "v3.1_relabel_blind",
+  "has_source_patch": true,
   "patch_files": [
    "meta.yaml",
    "meta.yaml",
@@ -1471,7 +1471,29 @@
    "mlflow.runName",
    "mlflow.source.git.commit",
    "mlflow.source.name",
-   "mlflow.source.type"
+   "mlflow.source.type",
+   "mlflow.user",
+   "meta.yaml",
+   "Loss",
+   "epoch_length",
+   "max_epochs",
+   "mlflow.runName",
+   "mlflow.source.git.commit",
+   "mlflow.source.name",
+   "mlflow.source.type",
+   "mlflow.user",
+   "meta.yaml",
+   "Loss",
+   "epoch_length",
+   "max_epochs",
+   "mlflow.runName",
+   "mlflow.source.git.commit",
+   "mlflow.source.name",
+   "mlflow.source.type",
+   "mlflow.user",
+   "meta.yaml",
+   "mlflow_handler.py",
+   "reproduce_error.py"
   ],
   "test_signal": {
    "passed": 7,
@@ -2483,7 +2505,7 @@
   ],
   "test_signal": {
    "passed": 26,
-   "failed": 79,
+   "failed": 2,
    "eval_interrupted": false
   },
   "tests_run_real": false
@@ -3234,13 +3256,13 @@
  {
   "idx": 3596,
   "instance_id": "iterative__dvc-1817",
-  "primary_v3": "NARROW-INCOMPLETE",
+  "primary_v3": "LOC-EXPLORE",
   "secondary_v3": [
    "HYG",
    "VERIF-ABSENT"
   ],
-  "provenance": "v2_kept",
-  "has_source_patch": true,
+  "provenance": "v3.1_relabel_blind",
+  "has_source_patch": false,
   "patch_files": [
    "checkout.py",
    "test_reproduce_error.py"
@@ -3568,7 +3590,15 @@
    "conanbuild.sh",
    "conanbuildenv-release-x86_64.sh",
    "conandeps_legacy.cmake",
-   "conanfile.py"
+   "conanfile.py",
+   "conanrun.sh",
+   "conanrunenv-release-x86_64.sh",
+   "cmake.py",
+   "deactivate_conanbuild.sh",
+   "deactivate_conanbuildenv-release-x86_64.sh",
+   "deactivate_conanrun.sh",
+   "main.cpp",
+   "reproduce_error.py"
   ],
   "test_signal": {
    "passed": 5,
@@ -4088,7 +4118,7 @@
   ],
   "test_signal": {
    "passed": 19680,
-   "failed": 5432,
+   "failed": 217,
    "eval_interrupted": false
   },
   "tests_run_real": false
@@ -4914,7 +4944,10 @@
    "conanbuildenv.sh",
    "conanfile.py",
    "conanrun.sh",
-   "conanrunenv.sh"
+   "conanrunenv.sh",
+   "deactivate_conanbuild.sh",
+   "deactivate_conanrun.sh",
+   "reproduce_issue.py"
   ],
   "test_signal": {
    "passed": 32,

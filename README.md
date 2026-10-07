@@ -53,21 +53,21 @@ We annotate 250 failed-with-patch trajectories from [SWE-Gym/OpenHands-Sampled-T
 
 | Primary | n | % [95% CI] |
 |---|---|---|
-| NARROW-INCOMPLETE | 134 | 53.6 [47.4, 59.7] |
+| NARROW-INCOMPLETE | 133 | 53.2 [47.0, 59.3] |
 | EVAL-BROKEN | 42 | 16.8 [12.7, 21.9] |
 | NARROW-REGRESSIVE | 31 | 12.4 [8.9, 17.1] |
 | LOC-REPAIR | 27 | 10.8 [7.5, 15.3] |
-| LOC-EXPLORE | 13 | 5.2 [3.1, 8.7] |
+| LOC-EXPLORE | 14 | 5.6 [3.4, 9.2] |
 | LIT-TASK | 2 | 0.8 [0.2, 2.9] |
 | RIGID-OSCIL | 1 | 0.4 [0.1, 2.2] |
 
 ## Changelog
 
-**v3.1 (2026-10-07).** `tests_run_real` re-derived from the trajectories with a strict criterion (a project test runner such as pytest/unittest/tox invoked on files the agent did not create). No run in the sample qualifies; v3 had counted agent-written scripts such as `test_edge_cases.py` as real test runs. `VERIF-ABSENT` therefore now applies to all 250 items (208/208 evaluable, 100% [98.2, 100]), up from 131. Primary labels are unchanged. Added the v3 agreement study (`data/agreement_v3/`).
+**v3.1 (2026-10-07).** `tests_run_real` re-derived from the trajectories with a strict criterion (a project test runner such as pytest/unittest/tox invoked on files the agent did not create). No run in the sample qualifies; v3 had counted agent-written scripts such as `test_edge_cases.py` as real test runs. `VERIF-ABSENT` therefore now applies to all 250 items (208/208 evaluable, 100% [98.2, 100]), up from 131. Added the v3 agreement study (`data/agreement_v3/`). A full audit of the mechanical fields against the raw logs also found: `has_source_patch` wrong for 3 items (two comment/whitespace-only edits marked as source changes; one real edit missed because `patch_files` was truncated at 8 files) — their primaries were re-labeled by the blind second annotator (mypy-15139 run 1555 → LOC-REPAIR, dvc-1817 → LOC-EXPLORE, MONAI-5656 → NARROW-INCOMPLETE; provenance `v3.1_relabel_blind`); `test_signal.failed` wrong for 2 items where log lines such as `port 5432 failed` had been parsed as counts (pandas-52058: 5,432 → 217; dvc-2141: 79 → 2); `patch_files` is no longer truncated. Statistics are recomputed with `scripts/stats/recompute_stats.py`.
 
 ## Known limitations
 
-- 238/250 items keep rubric-v2 primary labels; v3's tightened NARROW-INCOMPLETE definition was not retro-applied (23 INCOMPLETE items exceed the ≤4-failure threshold).
+- 235/250 items keep rubric-v2 primary labels; v3's tightened NARROW-INCOMPLETE definition was not retro-applied (23 INCOMPLETE items exceed the ≤4-failure threshold).
 - Agreement: κ = 0.68 on rubric v2 (two annotators, n = 50). Under v3, a blind Claude annotator gives κ = 0.54 [0.37, 0.70] on 50 fresh items (branch level 0.66; evaluation gate 50/50). The second annotator is a model, not a human. See `data/agreement_v3/summary.json`.
 - Single model (GPT-4o) and scaffold (OpenHands); no generalization claim.
 - No FAIL_TO_PASS / PASS_TO_PASS metadata; the REGRESSIVE/INCOMPLETE boundary relies on failure counts.
@@ -98,7 +98,7 @@ The annotations, rubric and statistics in this repository are released under [CC
 | Gemma 4 E4B-it (4-bit) | 45.9 [39.6, 52.3] | 61.8 [55.4, 67.8] | 0.536 |
 | Gemma 4 12B-it (4-bit) | 50.2 [43.8, 56.6] | 63.9 [57.6, 69.8] | 0.563 |
 
-Gold file inside the BM25 top-50 pool: 70.4%. By the GPT-4o agent's failure branch, Gemma 4 12B hit@5 is 41.0% [27.1, 56.6] on LOC-* instances (n = 39) vs 73.0% [65.5, 79.5] on NARROW-* instances (n = 152).
+Gold file inside the BM25 top-50 pool: 70.4%. By the GPT-4o agent's failure branch, Gemma 4 12B hit@5 is 42.5% [28.5, 57.8] on LOC-* instances (n = 40) vs 72.8% [65.3, 79.3] on NARROW-* instances (n = 151), using v3.1 labels (the notebook's `summary.json` predates the v3.1 audit and reports 41.0% / 73.0% with n = 39 / 152).
 
 hygiene-check vs human HYG tag on 250 agent patches: precision 0.996, recall 1.0, κ = 0.966 (same surface criteria as the rubric, so not an independent validity test); 97.6% of gold patches score 100.
 

@@ -49,15 +49,15 @@
    "RIGID-OSCIL": 2
   },
   "counts_if_applied": {
-   "EVAL-BROKEN": 42,
-   "NARROW-INCOMPLETE": 122,
-   "LOC-REPAIR": 27,
-   "LOC-EXPLORE": 13,
+   "NARROW-INCOMPLETE": 121,
    "NARROW-REGRESSIVE": 40,
+   "EVAL-BROKEN": 42,
+   "LOC-REPAIR": 27,
+   "LOC-EXPLORE": 14,
    "RIGID-OSCIL": 3,
    "LIT-TASK": 2,
    "CASC": 1
   },
-  "source_patch_near_miss_if_applied": "162/166"
+  "source_patch_near_miss_if_applied": "161/165 (v3.1 labels)"
  }
 }

@@ -1,20 +1,21 @@
 {
  "n": 250,
- "method": "mechanical v3 re-pass: 12 adjudicated finals + EVAL-BROKEN gate over all 250; 238 non-adjudicated items keep v2 primary labels; NOVER-INSUF demoted to secondary dimension VERIF-ABSENT | v3.1 (2026-10-07): tests_run_real re-derived from the trajectories with a strict criterion (project test runner invoked on non-agent-created files); 0/250 runs qualify, so VERIF-ABSENT now applies to all items. v3 had counted agent-written scripts such as test_*.py as real test runs.",
+ "method": "mechanical v3 re-pass: 12 adjudicated finals + EVAL-BROKEN gate over all 250; 238 non-adjudicated items keep v2 primary labels; NOVER-INSUF demoted to secondary dimension VERIF-ABSENT | v3.1 (2026-10-07): tests_run_real re-derived from the trajectories with a strict criterion (project test runner invoked on non-agent-created files); 0/250 runs qualify, so VERIF-ABSENT now applies to all items. v3 had counted agent-written scripts such as test_*.py as real test runs. | v3.1 audit: has_source_patch re-derived from the diffs (3 items changed: two comment/whitespace-only edits, one real edit missed because patch_files was truncated at 8); those 3 primaries re-labeled by the blind second annotator; test_signal.failed fixed for 2 items where 'port 5432 failed' / 'metrics.py:79 failed' log lines had been parsed as counts; patch_files no longer truncated.",
  "provenance_counts": {
   "gate_eval_broken": 34,
-  "agreement_kept": 34,
+  "agreement_kept": 33,
   "adjudicated_final": 12,
-  "v2_kept": 169,
+  "v3.1_relabel_blind": 3,
+  "v2_kept": 167,
   "v2_kept+lit_mapped": 1
  },
  "primary_overall": {
   "NARROW-INCOMPLETE": {
-   "n": 134,
-   "pct": 53.6,
+   "n": 133,
+   "pct": 53.2,
    "ci95": [
-    47.4,
-    59.7
+    47.0,
+    59.3
    ]
   },
   "EVAL-BROKEN": {
@@ -42,11 +43,11 @@
    ]
   },
   "LOC-EXPLORE": {
-   "n": 13,
-   "pct": 5.2,
+   "n": 14,
+   "pct": 5.6,
    "ci95": [
-    3.1,
-    8.7
+    3.4,
+    9.2
    ]
   },
   "LIT-TASK": {
@@ -68,11 +69,11 @@
  },
  "primary_evaluable_only": {
   "NARROW-INCOMPLETE": {
-   "n": 134,
-   "pct": 64.4,
+   "n": 133,
+   "pct": 63.9,
    "ci95": [
-    57.7,
-    70.6
+    57.2,
+    70.2
    ]
   },
   "NARROW-REGRESSIVE": {
@@ -92,11 +93,11 @@
    ]
   },
   "LOC-EXPLORE": {
-   "n": 13,
-   "pct": 6.2,
+   "n": 14,
+   "pct": 6.7,
    "ci95": [
-    3.7,
-    10.4
+    4.1,
+    11.0
    ]
   },
   "LIT-TASK": {
@@ -118,30 +119,30 @@
  },
  "primary_stratified": {
   "has_source_patch": {
-   "n": 205,
+   "n": 204,
    "dist": {
     "NARROW-INCOMPLETE": {
-     "n": 134,
-     "pct": 65.4,
+     "n": 133,
+     "pct": 65.2,
      "ci95": [
-      58.6,
-      71.5
+      58.4,
+      71.4
      ]
     },
     "EVAL-BROKEN": {
      "n": 39,
-     "pct": 19.0,
+     "pct": 19.1,
      "ci95": [
-      14.2,
-      24.9
+      14.3,
+      25.1
      ]
     },
     "NARROW-REGRESSIVE": {
      "n": 31,
-     "pct": 15.1,
+     "pct": 15.2,
      "ci95": [
       10.9,
-      20.7
+      20.8
      ]
     },
     "RIGID-OSCIL": {
@@ -155,58 +156,58 @@
    }
   },
   "effective_no_patch": {
-   "n": 45,
+   "n": 46,
    "dist": {
     "LOC-REPAIR": {
      "n": 27,
-     "pct": 60.0,
+     "pct": 58.7,
      "ci95": [
-      45.5,
-      73.0
+      44.3,
+      71.7
      ]
     },
     "LOC-EXPLORE": {
-     "n": 13,
-     "pct": 28.9,
+     "n": 14,
+     "pct": 30.4,
      "ci95": [
-      17.7,
-      43.4
+      19.1,
+      44.8
      ]
     },
     "EVAL-BROKEN": {
      "n": 3,
-     "pct": 6.7,
+     "pct": 6.5,
      "ci95": [
-      2.3,
-      17.9
+      2.2,
+      17.5
      ]
     },
     "LIT-TASK": {
      "n": 2,
-     "pct": 4.4,
+     "pct": 4.3,
      "ci95": [
       1.2,
-      14.8
+      14.5
      ]
     }
    }
   }
  },
  "secondary_overall": {
-  "HYG": {
-   "n": 234,
-   "pct": 93.6,
-   "ci95": [
-    89.9,
-    96.0
-   ]
-  },
   "VERIF-ABSENT": {
    "n": 250,
    "pct": 100.0,
    "ci95": [
     98.5,
     100.0
+   ]
+  },
+  "HYG": {
+   "n": 234,
+   "pct": 93.6,
+   "ci95": [
+    89.9,
+    96.0
    ]
   },
   "TOOL": {
@@ -232,6 +233,10 @@
     "n": 42,
     "pct": 100.0
    },
+   "VERIF-ABSENT": {
+    "n": 42,
+    "pct": 100.0
+   },
    "TOOL": {
     "n": 10,
     "pct": 23.8
@@ -239,10 +244,6 @@
    "CONFAB": {
     "n": 1,
     "pct": 2.4
-   },
-   "VERIF-ABSENT": {
-    "n": 42,
-    "pct": 100.0
    }
   },
   "LIT-TASK": {
@@ -257,20 +258,20 @@
   },
   "LOC-EXPLORE": {
    "HYG": {
-    "n": 13,
+    "n": 14,
     "pct": 100.0
    },
    "VERIF-ABSENT": {
-    "n": 13,
+    "n": 14,
     "pct": 100.0
    },
    "TOOL": {
     "n": 4,
-    "pct": 30.8
+    "pct": 28.6
    },
    "CONFAB": {
     "n": 2,
-    "pct": 15.4
+    "pct": 14.3
    }
   },
   "LOC-REPAIR": {
@@ -288,27 +289,27 @@
    }
   },
   "NARROW-INCOMPLETE": {
-   "HYG": {
-    "n": 123,
-    "pct": 91.8
-   },
    "VERIF-ABSENT": {
-    "n": 134,
+    "n": 133,
     "pct": 100.0
+   },
+   "HYG": {
+    "n": 122,
+    "pct": 91.7
    },
    "TOOL": {
     "n": 17,
-    "pct": 12.7
+    "pct": 12.8
    }
   },
   "NARROW-REGRESSIVE": {
-   "HYG": {
-    "n": 27,
-    "pct": 87.1
-   },
    "VERIF-ABSENT": {
     "n": 31,
     "pct": 100.0
+   },
+   "HYG": {
+    "n": 27,
+    "pct": 87.1
    },
    "TOOL": {
     "n": 2,
@@ -336,15 +337,15 @@
   ]
  },
  "separability_evaluable": {
-  "has_source_patch_evaluable_n": 166,
+  "has_source_patch_evaluable_n": 165,
   "near_miss_share": {
-   "n": 165,
+   "n": 164,
    "pct": 99.4
   },
-  "effective_no_patch_evaluable_n": 42,
+  "effective_no_patch_evaluable_n": 43,
   "loc_share": {
-   "n": 40,
-   "pct": 95.2
+   "n": 41,
+   "pct": 95.3
   }
  },
  "limitations": [
