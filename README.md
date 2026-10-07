@@ -81,7 +81,7 @@ The annotations, rubric and statistics in this repository are released under [CC
 | `edit-recovery/` | CASC / TOOL / RIGID | Truncate a trajectory before its first failed edit and score recovery |
 | `hygiene-check/` | HYG | Cleanliness score (0–100) and flags for a git diff |
 
-**Status:** `localization-probe` and `hygiene-check` have been run on real data in [`kaggle/gemma4_experiments.ipynb`](kaggle/gemma4_experiments.ipynb) (Kaggle, 2×T4). `edit-recovery` has only been exercised with deterministic stubs. The local demos need the source trajectories, which are not redistributed here — see `eval-proto/README.md`.
+**Status:** `localization-probe` and `hygiene-check` have been run on real data in [`kaggle/gemma4_experiments.ipynb`](kaggle/gemma4_experiments.ipynb), and a small-scale `edit-recovery` probe in [`kaggle/gemma4_edit_recovery.ipynb`](kaggle/gemma4_edit_recovery.ipynb) (Kaggle, 2×T4). The local demos need the source trajectories, which are not redistributed here — see `eval-proto/README.md`.
 
 ### Gemma 4 results (233 unique task instances, Wilson 95% CIs)
 
@@ -94,3 +94,16 @@ The annotations, rubric and statistics in this repository are released under [CC
 Gold file inside the BM25 top-50 pool: 70.4%. By the GPT-4o agent's failure branch, Gemma 4 12B hit@5 is 41.0% [27.1, 56.6] on LOC-* instances (n = 39) vs 73.0% [65.5, 79.5] on NARROW-* instances (n = 152).
 
 hygiene-check vs human HYG tag on 250 agent patches: precision 0.996, recall 1.0, κ = 0.966 (same surface criteria as the rubric, so not an independent validity test); 97.6% of gold patches score 100.
+
+### Edit-recovery results (no test execution)
+
+90 of 250 failures (36.0% [30.3, 42.1]) contain an explicit tool-error edit; replaying earlier editor commands on `base_commit` reproduces the failure in 79. Recovery = a clean, non-identical edit within 6 steps.
+
+| System | Recovered | Median steps | Edited .py still parses | Edit in a gold-patch file |
+|---|---|---|---|---|
+| GPT-4o, continuing its own trajectory | 81.0% [71.0, 88.1] | 2 | 71.9% | 68.8% |
+| Gemma 4 12B-it, restarted with issue + failed call | 13.9% [8.0, 23.2] | 3 | 100% | 72.7% |
+| Gemma 4 E4B-it, restarted with issue + failed call | 16.5% [9.9, 26.1] | 2 | 76.9% | 84.6% |
+
+13.9% of GPT-4o runs re-issue the identical failed edit. The GPT-4o and Gemma settings differ in context, scaffold and model at once, so this is not a model comparison.
+
